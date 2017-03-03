@@ -15,7 +15,9 @@
     "cron": "^1.2.1",
     "dotenv": "^4.0.0",
     "express": "^4.14.1",
+    "morgan": "^1.8.1",
     "twitter": "^1.7.0",
-    "web-push": "^3.2.2"
+    "web-push": "^3.2.2",
+    "winston": "^2.3.1"
   }
 }
