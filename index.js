@@ -33,6 +33,13 @@ logger.stream = {
 }
 app.use(require('morgan')('combined', { 'stream': logger.stream }))
 
+// Reading command line arguments
+var argv = require('yargs')
+  .usage('Usage: $0 --stringToMonitor [string]')
+  .argv
+
+var stringToMonitor = argv.stringToMonitor || 'javascript'
+
 // Setting Web Push credentials
 var webPush = require('web-push')
 webPush.setVapidDetails(
@@ -52,32 +59,35 @@ var twitterClient = new Twitter({
 })
 
 // Listening to tweets stream
-twitterClient.stream('statuses/filter', {track: 'angular'}, function (stream) {
+twitterClient.stream('statuses/filter', {track: stringToMonitor}, function (stream) {
   stream.on('data', function (tweet) {
+    if (tweet && tweet.user) {
 
-    // https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration/showNotification
-    var notificationData = {}
-    notificationData.notification = {
-      actions: [{
-        action: 'retweet',
-        title: 'Retweet'
-      }, {
-        action: 'reply',
-        title: 'Reply'
-      }],
-      body: [ tweet.user.name, tweet.text ].join(': '),
-      dir: 'auto',
-      icon: tweet.profile_image_url_https,
-      lang: tweet.lang,
-      renotify: true,
-      requireInteraction: true,
-      tag: tweet.id,
-      vibrate: [300, 100, 400],
-      data: tweet.timestamp_ms
+      // https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration/showNotification
+      var notificationData = {}
+      notificationData.notification = {
+        title: tweet.user.name,
+        actions: [{
+          action: 'opentweet',
+          title: 'Open tweet'
+        }],
+        body: tweet.text,
+        dir: 'auto',
+        icon: tweet.user.profile_image_url_https,
+        image: tweet.user.profile_image_url_https,
+        badge: tweet.user.profile_image_url_https,
+        lang: tweet.lang,
+        renotify: true,
+        requireInteraction: true,
+        tag: tweet.id,
+        vibrate: [300, 100, 400],
+        data: 'https://twitter.com/statuses/' + tweet.id_str
+      }
+
+      sendNotification(JSON.stringify(notificationData))
+      logger.info(notificationData)
+      logger.info(tweet)
     }
-
-    sendNotification(JSON.stringify(notificationData))
-    logger.info(notificationData)
   })
 })
 
@@ -132,16 +142,13 @@ server.listen(process.env.PORT || 3000, function () {
 var CronJob = require('cron').CronJob
 
 new CronJob('*/5 * * * * *', function () {
-
   var notificationData = {}
   notificationData.notification = {
     actions: [{
-      action: 'retweet',
-      title: 'Retweet'
-    }, {
-      action: 'reply',
-      title: 'Reply'
+      action: 'opentweet',
+      title: 'Open tweet'
     }],
+    title: 'My title',
     body: 'My notification',
     dir: 'auto',
     icon: 'https://image',
@@ -155,5 +162,4 @@ new CronJob('*/5 * * * * *', function () {
 
   sendNotification(JSON.stringify(notificationData))
   logger.info(notificationData)
-
-}, null, false) //set the last parameter to true to start CronJob
+}, null, false) // set the last parameter to true to start CronJob
