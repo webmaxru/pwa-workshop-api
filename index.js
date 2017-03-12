@@ -21,7 +21,8 @@ var logger = new winston.Logger({
   transports: [
     new winston.transports.Console({
       handleExceptions: true,
-      json: true
+      json: true,
+      level: 'info' // Set 'debug' for super-detailed output
     })
   ],
   exitOnError: false
@@ -31,7 +32,9 @@ logger.stream = {
     logger.info(message)
   }
 }
-app.use(require('morgan')('combined', { 'stream': logger.stream }))
+app.use(require('morgan')('combined', {
+  'stream': logger.stream
+}))
 
 // Reading command line arguments
 var argv = require('yargs')
@@ -50,6 +53,7 @@ webPush.setVapidDetails(
 var pushSubscription
 
 // Connecting to Twitter
+// Go to https://dev.twitter.com/rest/tools/console to get endpoints list
 var Twitter = require('twitter')
 var twitterClient = new Twitter({
   consumer_key: process.env.TWITTER_CONSUMER_KEY,
@@ -59,7 +63,9 @@ var twitterClient = new Twitter({
 })
 
 // Listening to tweets stream
-twitterClient.stream('statuses/filter', {track: stringToMonitor}, function (stream) {
+twitterClient.stream('statuses/filter', {
+  track: stringToMonitor
+}, function (stream) {
   stream.on('data', function (tweet) {
     if (tweet && tweet.user) {
 
@@ -85,22 +91,25 @@ twitterClient.stream('statuses/filter', {track: stringToMonitor}, function (stre
       }
 
       sendNotification(JSON.stringify(notificationData))
-      logger.info(notificationData)
-      logger.info(tweet)
+      logger.debug(notificationData)
+      logger.debug(tweet)
+      logger.info('Tweet stream received')
     }
   })
 })
 
 // Subscribe to Web Push
-app.get('/feed', function (req, res, next) {
-  twitterClient.get('favorites/list', function (error, tweets, response) {
-    if (!error) {
+app.get('/timeline/:screenName?', function (req, res, next) {
+  twitterClient.get('statuses/user_timeline', {
+    screen_name: req.params.screenName
+  })
+    .then(function (tweets) {
       res.send(tweets)
-    } else {
+    })
+    .catch(function (error) {
       logger.error(error)
       throw new Error('Error receiving tweets')
-    }
-  })
+    })
 })
 
 // Subscribe to Web Push
@@ -123,7 +132,9 @@ function sendNotification (payload) {
   if (pushSubscription) {
     webPush.sendNotification(pushSubscription, payload)
       .then(function (response) {
-        logger.info('Push sent', payload, response)
+        logger.info('Push sent')
+        logger.debug(payload)
+        logger.debug(response)
       })
       .catch(function (error) {
         logger.error('Push error: ', error)
