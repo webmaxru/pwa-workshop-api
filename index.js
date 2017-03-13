@@ -53,7 +53,7 @@ webPush.setVapidDetails(
 var pushSubscription
 
 // Connecting to Twitter
-// Go to https://dev.twitter.com/rest/tools/console to get endpoints list
+// Get your credentials here: https://apps.twitter.com/app/new
 var Twitter = require('twitter')
 var twitterClient = new Twitter({
   consumer_key: process.env.TWITTER_CONSUMER_KEY,
@@ -99,20 +99,6 @@ twitterClient.stream('statuses/filter', {
 })
 
 // Subscribe to Web Push
-app.get('/timeline/:screenName?', function (req, res, next) {
-  twitterClient.get('statuses/user_timeline', {
-    screen_name: req.params.screenName
-  })
-    .then(function (tweets) {
-      res.send(tweets)
-    })
-    .catch(function (error) {
-      logger.error(error)
-      throw new Error('Error receiving tweets')
-    })
-})
-
-// Subscribe to Web Push
 app.post('/webpush', function (req, res, next) {
   if (req.body.action === 'subscribe') {
     pushSubscription = req.body.subscription
@@ -141,6 +127,26 @@ function sendNotification (payload) {
       })
   }
 }
+
+// Exposing the timeline endpoint
+// Go to https://dev.twitter.com/rest/tools/console to get endpoints list
+app.get('/timeline/:screenName?', function (req, res, next) {
+  twitterClient.get('statuses/user_timeline', {
+    screen_name: req.params.screenName
+  })
+    .then(function (tweets) {
+      res.send(tweets)
+    })
+    .catch(function (error) {
+      logger.error(error)
+      throw new Error('Error receiving tweets')
+    })
+})
+
+// Default endpoint
+app.get('/', function (req, res, next) {
+  res.send('PWA Workshop API works!')
+})
 
 // Starting Express
 
@@ -173,4 +179,4 @@ new CronJob('*/5 * * * * *', function () {
 
   sendNotification(JSON.stringify(notificationData))
   logger.info(notificationData)
-}, null, false) // set the last parameter to true to start CronJob
+}, null, false) // Set the last parameter to true to start CronJob
