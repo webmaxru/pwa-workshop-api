@@ -143,6 +143,29 @@ app.get('/timeline/:screenName?', function (req, res, next) {
     })
 })
 
+// Subscribe to Web Push
+app.post('/post-tweet', function (req, res, next) {
+  if (req.body.message) {
+    twitterClient.post('statuses/update', {
+      status: req.body.message
+    })
+      .then(function (tweet) {
+        res.send(tweet)
+      })
+      .catch(function (error) {
+        logger.error(error)
+        logger.info('Tweeting via Twitter API is not possible, but the data was received from front-end, all OK')
+        res.send({
+          text: 'Tweet "posted"',
+          status: '200'
+        })
+        throw new Error('Error posting tweet')
+      })
+  } else {
+    throw new Error('Unsupported action')
+  }
+})
+
 // Default endpoint
 app.get('/', function (req, res, next) {
   res.send('PWA Workshop API works!')
