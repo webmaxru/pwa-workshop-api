@@ -39,7 +39,7 @@ You should see the output:
 ```
 2. Open [http://localhost:3000/](http://localhost:3000/). You should see `PWA Workshop API works!`.
 3. Open [http://localhost:3000/timeline/](http://localhost:3000/timeline/). You should see the JSON with your latest tweets.
-4. Open [http://localhost:3000/timeline/angular/](http://localhost:3000/angular/). You should see the JSON with `@angular` latest tweets. Instead of `angular` you can use any other Twitter handle.
+4. Open [http://localhost:3000/timeline/angular/](http://localhost:3000/timeline/angular/). You should see the JSON with `@angular` latest tweets. Instead of `angular` you can use any other Twitter handle.
 5. Check the console: you will see the entries
 ```
 {
