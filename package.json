@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js --stringToMonitor webdave_de",
+    "start": "node index.js --stringToMonitor angular",
+    "startwd": "node index.js --stringToMonitor webdave_de",
     "startjs": "node index.js"
   },
   "author": "",
