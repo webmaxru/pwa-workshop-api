@@ -46,7 +46,7 @@ var stringToMonitor = argv.stringToMonitor || 'javascript'
 // Setting Web Push credentials
 var webPush = require('web-push')
 webPush.setVapidDetails(
-  'mailto:dave@webdave.de',
+  'mailto:salnikov@gmail.com',
   process.env.VAPID_PUBLIC_KEY,
   process.env.VAPID_PRIVATE_KEY
 )
@@ -100,21 +100,17 @@ app.post('/webpush', function (req, res, next) {
   logger.info('Number of active subscriptions: ' + pushSubscriptions.length)
      var notificationData = {}
       notificationData.notification = {
-        title: 'web#dave',
-        actions: [{
-          action: 'opentweet',
-          title: 'Open tweet'
-        }],
-        body: 'Ja Mooooin!',
+        title: 'Push Notifications',
+        body: 'Web push subscribed! \n Number of active subscriptions: ' + pushSubscriptions.length,
         dir: 'auto',
-        icon: 'https://www.webdave.de/wp-content/uploads/2016/04/wer.jpg',
-        badge: 'https://www.webdave.de/wp-content/uploads/2016/04/wer.jpg',
+        icon: '',
+        badge: '',
         lang: 'en',
         renotify: true,
         requireInteraction: true,
-        tag: 'webdave_de',
+        tag: '',
         vibrate: [300, 100, 400],
-        data: 'https://www.webdave.de'
+        data: ''
       };
 
     pushSubscriptions.forEach(function (item) {
@@ -205,8 +201,8 @@ function sendNotification (pushSubscription, payload) {
         logger.debug(response)
       })
       .catch(function (error) {
-        logger.error('Push error: ', error)
-      })
+        logger.error('Push error: ', error);
+      });
   }
 }
 
