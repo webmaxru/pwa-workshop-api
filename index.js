@@ -46,7 +46,7 @@ var stringToMonitor = argv.stringToMonitor || 'javascript'
 // Setting Web Push credentials
 var webPush = require('web-push')
 webPush.setVapidDetails(
-  'mailto:salnikov@gmail.com',
+  'mailto:dave@webdave.de',
   process.env.VAPID_PUBLIC_KEY,
   process.env.VAPID_PRIVATE_KEY
 )
@@ -77,7 +77,7 @@ app.post('/webpush', function (req, res, next) {
     res.send({
       text: 'Web push subscribed',
       status: '200'
-    })
+    });
   } else if (req.body.action === 'unsubscribe') {
     var subscriptionIndex = arrayObjectIndexOf(pushSubscriptions, req.body.subscription.endpoint, 'endpoint')
 
@@ -98,7 +98,61 @@ app.post('/webpush', function (req, res, next) {
   }
 
   logger.info('Number of active subscriptions: ' + pushSubscriptions.length)
+     var notificationData = {}
+      notificationData.notification = {
+        title: 'web#dave',
+        actions: [{
+          action: 'opentweet',
+          title: 'Open tweet'
+        }],
+        body: 'Ja Mooooin!',
+        dir: 'auto',
+        icon: 'https://www.webdave.de/wp-content/uploads/2016/04/wer.jpg',
+        badge: 'https://www.webdave.de/wp-content/uploads/2016/04/wer.jpg',
+        lang: 'en',
+        renotify: true,
+        requireInteraction: true,
+        tag: 'webdave_de',
+        vibrate: [300, 100, 400],
+        data: 'https://www.webdave.de'
+      };
+
+    pushSubscriptions.forEach(function (item) {
+      sendNotification(item, JSON.stringify(notificationData));
+    });
 })
+
+app.post('/msg', function (req, res, next) {
+  logger.info('Web req: ', req.body);
+  logger.info('Number of active subscriptions: ' + pushSubscriptions.length)
+  var msg = req.body.msg;
+  var icon = msg.icon || 'https://www.webdave.de/wp-content/uploads/2016/04/wer.jpg';
+  var badge = msg.badge || 'https://www.webdave.de/wp-content/uploads/2016/04/wer.jpg';
+  var tag = msg.tag || 'webdave_de';
+  var data = msg.data || 'https://www.webdave.de';
+     var notificationData = {};
+      notificationData.notification = {
+        title: msg.title,
+        body: msg.message,
+        dir: 'auto',
+        icon: icon,
+        badge: badge,
+        lang: 'en',
+        renotify: true,
+        requireInteraction: true,
+        tag: tag,
+        vibrate: [300, 100, 400],
+        data: data
+      };
+
+    pushSubscriptions.forEach(function (item) {
+      sendNotification(item, JSON.stringify(notificationData));
+    });
+  res.send({
+      text: 'Web push send to ' + pushSubscriptions.length + ' subscribers!',
+      status: '200'
+    });
+});
 
 // Listening to tweets stream and sending notifocation
 twitterClient.stream('statuses/filter', {
