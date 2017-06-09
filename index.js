@@ -1,22 +1,22 @@
 // Reading process.env variables from .env file
-require('dotenv').config()
+require('dotenv').config();
 
 // Scaffolding Express app
-var express = require('express')
-var app = express()
-var server = require('http').createServer(app)
+var express = require('express');
+var app = express();
+var server = require('http').createServer(app);
 
-var bodyParser = require('body-parser')
-app.use(express.static(__dirname))
-app.use(bodyParser.json())
+var bodyParser = require('body-parser');
+app.use(express.static(__dirname));
+app.use(bodyParser.json());
 
 // Enabling CORS
-var cors = require('cors')
-app.use(cors())
-app.options('*', cors())
+var cors = require('cors');
+app.use(cors());
+app.options('*', cors());
 
 // Setting up detailed logging
-var winston = require('winston')
+var winston = require('winston');
 var logger = new winston.Logger({
   transports: [
     new winston.transports.Console({
@@ -27,67 +27,92 @@ var logger = new winston.Logger({
   ],
   exitOnError: false
 })
+
 logger.stream = {
   write: function (message, encoding) {
-    logger.info(message)
+    logger.info(message);
   }
 }
+
 app.use(require('morgan')('combined', {
   'stream': logger.stream
-}))
-
-// Reading command line arguments
-var argv = require('yargs')
-  .usage('Usage: $0 --stringToMonitor [string]')
-  .argv
-
-var stringToMonitor = argv.stringToMonitor || 'javascript'
+}));
 
 // Setting Web Push credentials
 var webPush = require('web-push')
 webPush.setVapidDetails(
-  'mailto:salnikov@gmail.com',
+  'mailto:dave@webdave.de',
   process.env.VAPID_PUBLIC_KEY,
   process.env.VAPID_PRIVATE_KEY
-)
-var pushSubscriptions = []
+);
 
-// Connecting to Twitter
-// Get your credentials here: https://apps.twitter.com/app/new
-var Twitter = require('twitter')
-var twitterClient = new Twitter({
-  consumer_key: process.env.TWITTER_CONSUMER_KEY,
-  consumer_secret: process.env.TWITTER_CONSUMER_SECRET,
-  access_token_key: process.env.TWITTER_ACCESS_TOKEN_KEY,
-  access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET
+var pushSubscriptions = [];
+var activeUsers = ['Foo','Bar','Baz'];
+
+// get Users (list)
+app.get('/users', function (req, res, next) {
+      res.send({
+      text: {
+        msg: 'active users',
+        user: activeUsers
+      },
+      status: '200'
+    });
 })
 
 // Subscribe to Web Push
 app.post('/webpush', function (req, res, next) {
   logger.info('Web push subscription object received: ', req.body.subscription)
 
+  var notificationData = {}
+  notificationData.notification = {
+    title: '',
+    body: '',
+    dir: 'auto',
+    icon: '',
+    badge: '',
+    lang: 'en',
+    renotify: true,
+    requireInteraction: true,
+    tag: '',
+    vibrate: [300, 100, 400],
+    data: ''
+  };
+
   if (req.body.action === 'subscribe') {
     if (arrayObjectIndexOf(pushSubscriptions, req.body.subscription.endpoint, 'endpoint') == -1) {
-      pushSubscriptions.push(req.body.subscription)
-      logger.info('Subscription registered: ' + req.body.subscription.endpoint)
+      pushSubscriptions.push(req.body.subscription);
+      activeUsers.push(req.body.user);
+      var subscriptionIndex = arrayObjectIndexOf(pushSubscriptions, req.body.subscription.endpoint, 'endpoint')
+      logger.info('Subscription registered: ' + req.body.subscription.endpoint + ' at ' + subscriptionIndex)
     } else {
       logger.info('Subscription was already registered: ' + req.body.subscription.endpoint)
     }
 
+    notificationData.notification.title = activeUsers[subscriptionIndex];
+    notificationData.notification.body = activeUsers[subscriptionIndex] + ' subscribed Web push';
+
     res.send({
-      text: 'Web push subscribed',
+      text: {
+        msg: 'Web push subscribed',
+        user: activeUsers[subscriptionIndex]
+      },
       status: '200'
     });
   } else if (req.body.action === 'unsubscribe') {
     var subscriptionIndex = arrayObjectIndexOf(pushSubscriptions, req.body.subscription.endpoint, 'endpoint')
 
     if (subscriptionIndex >= 0) {
-      pushSubscriptions.splice(subscriptionIndex, 1)
+      pushSubscriptions.splice(subscriptionIndex, 1);
+      activeUsers.splice(subscriptionIndex, 1);
 
       logger.info('Subscription unregistered: ' + req.body.subscription.endpoint)
     } else {
       logger.info('Subscription was not found: ' + req.body.subscription.endpoint)
     }
+
+    notificationData.notification.title = activeUsers[subscriptionIndex];
+    notificationData.notification.body = activeUsers[subscriptionIndex] + ' unsubscribed Web push';
 
     res.send({
       text: 'Web push unsubscribed',
@@ -97,102 +122,68 @@ app.post('/webpush', function (req, res, next) {
     throw new Error('Unsupported action')
   }
 
-  logger.info('Number of active subscriptions: ' + pushSubscriptions.length)
-     var notificationData = {}
-      notificationData.notification = {
-        title: 'Push Notifications',
-        body: 'Web push subscribed! \n Number of active subscriptions: ' + pushSubscriptions.length,
-        dir: 'auto',
-        icon: '',
-        badge: '',
-        lang: 'en',
-        renotify: true,
-        requireInteraction: true,
-        tag: '',
-        vibrate: [300, 100, 400],
-        data: ''
-      };
+  logger.info('Number of active subscriptions: ' + pushSubscriptions.length);
 
-    pushSubscriptions.forEach(function (item) {
-      sendNotification(item, JSON.stringify(notificationData));
-    });
+  pushSubscriptions.forEach(function (item) {
+    sendNotification(item, JSON.stringify(notificationData));
+  });
 })
 
+/**
+ * @payload: 
+ * {
+ *    users: string[];
+ *    msg: {
+ *      msg: {
+ *        title: string;
+ *        message: string;
+ *      }
+ *      icon?: url | base64;
+ *      badge?: url | base64;
+ *      tag?: string;
+ *      data?: url;
+ *    }
+ * }
+ * 
+ */
 app.post('/msg', function (req, res, next) {
   logger.info('Web req: ', req.body);
-  logger.info('Number of active subscriptions: ' + pushSubscriptions.length)
+  logger.info('Number of active subscriptions: ' + pushSubscriptions.length);
+  var recivers = req.body.users; // []
   var msg = req.body.msg;
   var icon = msg.icon || 'https://www.webdave.de/wp-content/uploads/2016/04/wer.jpg';
   var badge = msg.badge || 'https://www.webdave.de/wp-content/uploads/2016/04/wer.jpg';
   var tag = msg.tag || 'webdave_de';
   var data = msg.data || 'https://www.webdave.de';
-     var notificationData = {};
-      notificationData.notification = {
-        title: msg.title,
-        body: msg.message,
-        dir: 'auto',
-        icon: icon,
-        badge: badge,
-        lang: 'en',
-        renotify: true,
-        requireInteraction: true,
-        tag: tag,
-        vibrate: [300, 100, 400],
-        data: data
-      };
+  var notificationData = {};
+  notificationData.notification = {
+    title: msg.title,
+    body: msg.message,
+    dir: 'auto',
+    icon: icon,
+    badge: badge,
+    lang: 'en',
+    renotify: true,
+    requireInteraction: true,
+    tag: tag,
+    vibrate: [300, 100, 400],
+    data: data
+  };
 
-    pushSubscriptions.forEach(function (item) {
+  if(req.users === ['all']){
+    recivers = activeUsers;
+  }
+    recivers.map(function (reciver) {
+      var item = pushSubscriptions[activeUsers.indexOf(reciver)];
       sendNotification(item, JSON.stringify(notificationData));
     });
   res.send({
-      text: 'Web push send to ' + pushSubscriptions.length + ' subscribers!',
-      status: '200'
-    });
+    text: 'Web push send to ' + recivers.length + ' subscribers!',
+    status: '200'
+  });
 });
 
-// Listening to tweets stream and sending notifocation
-twitterClient.stream('statuses/filter', {
-  track: stringToMonitor
-}, function (stream) {
-  stream.on('data', function (tweet) {
-    if (tweet && tweet.user) {
-
-      // https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration/showNotification
-      var notificationData = {}
-      notificationData.notification = {
-        title: tweet.user.name,
-        actions: [{
-          action: 'opentweet',
-          title: 'Open tweet'
-        }],
-        body: tweet.text,
-        dir: 'auto',
-        icon: tweet.user.profile_image_url_https,
-        badge: tweet.user.profile_image_url_https,
-        lang: tweet.lang,
-        renotify: true,
-        requireInteraction: true,
-        tag: tweet.id,
-        vibrate: [300, 100, 400],
-        data: 'https://twitter.com/statuses/' + tweet.id_str
-      }
-
-      if (tweet.entities && tweet.entities.media) {
-        notificationData.notification.image = tweet.entities.media[0].media_url_https
-      }
-
-      logger.debug(notificationData)
-      logger.debug(tweet)
-      logger.info('Tweet stream received')
-
-      pushSubscriptions.forEach(function (item) {
-        sendNotification(item, JSON.stringify(notificationData))
-      })
-    }
-  })
-})
-
-function sendNotification (pushSubscription, payload) {
+function sendNotification(pushSubscription, payload) {
   if (pushSubscription) {
     webPush.sendNotification(pushSubscription, payload)
       .then(function (response) {
@@ -206,71 +197,10 @@ function sendNotification (pushSubscription, payload) {
   }
 }
 
-// Go to https://dev.twitter.com/rest/tools/console to get endpoints list
-
-// Exposing the timeline endpoint
-app.get('/timeline/:screenName?', function (req, res, next) {
-  twitterClient.get('statuses/user_timeline', {
-    screen_name: req.params.screenName
-  })
-    .then(function (tweets) {
-      res.send(tweets)
-    })
-    .catch(function (error) {
-      logger.error(error)
-      throw new Error('Error receiving tweets')
-    })
-})
-
-// Exposing the favorites endpoint
-app.get('/favorites/:screenName?', function (req, res, next) {
-  twitterClient.get('favorites/list', {
-    screen_name: req.params.screenName
-  })
-    .then(function (tweets) {
-      res.send(tweets)
-    })
-    .catch(function (error) {
-      logger.error(error)
-      throw new Error('Error receiving tweets')
-    })
-})
-
-// Placeholder to test Background Sync
-app.post('/post-tweet', function (req, res, next) {
-  if (req.body.message) {
-    logger.info('The data was received from front-end', req.body.message)
-    res.send({
-      text: req.body.message,
-      status: '200'
-    })
-  } else {
-    throw new Error('Message text is required')
-  }
-})
-
-// Posting the tweet
-app.post('/real-post-tweet', function (req, res, next) {
-  if (req.body.message) {
-    logger.info('The data was received from front-end', req.body.message)
-    twitterClient.post('statuses/update', {
-      status: req.body.message
-    })
-      .then(function (tweet) {
-        res.send(tweet)
-      })
-      .catch(function (error) {
-        logger.error(error)
-        throw new Error('Error posting tweet')
-      })
-  } else {
-    throw new Error('Message text is required')
-  }
-})
 
 // Default endpoint
 app.get('/', function (req, res, next) {
-  res.send('PWA Workshop API works! Source: <a href="https://github.com/webmaxru/pwa-workshop-api">https://github.com/webmaxru/pwa-workshop-api</a>')
+  res.send('PWA msg api')
 })
 
 // Starting Express
@@ -307,7 +237,7 @@ new CronJob('*/5 * * * * *', function () {
 }, null, false) // Set the last parameter to true to start CronJob
 
 // Utility function to search the item in the array of objects
-function arrayObjectIndexOf (myArray, searchTerm, property) {
+function arrayObjectIndexOf(myArray, searchTerm, property) {
   for (var i = 0, len = myArray.length; i < len; i++) {
     if (myArray[i][property] === searchTerm) return i
   }
