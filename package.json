@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js --stringToMonitor angular"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
