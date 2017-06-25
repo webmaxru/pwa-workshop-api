@@ -1,0 +1,4697 @@
+[{
+    "created_at": "Tue Jun 20 21:13:22 +0000 2017",
+    "id": 877273192535998500,
+    "id_str": "877273192535998464",
+    "text": "RT @PascalPrecht: 🎉 @Angular Material beta.7 is out now! 🎉\n\nSee theming in action by changing the website’s color scheme! :)\n\nhttps://t.co/…",
+    "truncated": false,
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [{
+            "screen_name": "PascalPrecht",
+            "name": "The Mighty Parrot 🐦",
+            "id": 146878311,
+            "id_str": "146878311",
+            "indices": [3, 16]
+        }, {
+            "screen_name": "angular",
+            "name": "Angular",
+            "id": 202230373,
+            "id_str": "202230373",
+            "indices": [20, 28]
+        }],
+        "urls": []
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 202230373,
+        "id_str": "202230373",
+        "name": "Angular",
+        "screen_name": "angular",
+        "location": "",
+        "description": "One framework.\nMobile & desktop.",
+        "url": "https://t.co/ijlKFnW0VL",
+        "entities": {
+            "url": {
+                "urls": [{
+                    "url": "https://t.co/ijlKFnW0VL",
+                    "expanded_url": "https://angular.io",
+                    "display_url": "angular.io",
+                    "indices": [0, 23]
+                }]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 228292,
+        "friends_count": 121,
+        "listed_count": 3921,
+        "created_at": "Wed Oct 13 15:49:37 +0000 2010",
+        "favourites_count": 1841,
+        "utc_offset": -25200,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 2778,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://localhost:3000/userpic.jpg",
+        "profile_image_url_https": "http://localhost:3000/userpic.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/202230373/1462066193",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Tue Jun 20 09:07:05 +0000 2017",
+        "id": 877090416922939400,
+        "id_str": "877090416922939395",
+        "text": "🎉 @Angular Material beta.7 is out now! 🎉\n\nSee theming in action by changing the website’s color scheme! :)… https://t.co/9OGTLDHMlj",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [{
+                "screen_name": "angular",
+                "name": "Angular",
+                "id": 202230373,
+                "id_str": "202230373",
+                "indices": [2, 10]
+            }],
+            "urls": [{
+                "url": "https://t.co/9OGTLDHMlj",
+                "expanded_url": "https://twitter.com/i/web/status/877090416922939395",
+                "display_url": "twitter.com/i/web/status/8…",
+                "indices": [108, 131]
+            }]
+        },
+        "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 146878311,
+            "id_str": "146878311",
+            "name": "The Mighty Parrot 🐦",
+            "screen_name": "PascalPrecht",
+            "location": "Hanover, Germany",
+            "description": "I like synthesizers, art, and coding. Co-founder of @thoughtram, @machinelabs_ai and creator of @5thingsAngular.\n\nAlso GDE for the @Angular team @Google.",
+            "url": "https://t.co/fadbJsXZaq",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "https://t.co/fadbJsXZaq",
+                        "expanded_url": "http://thoughtram.io",
+                        "display_url": "thoughtram.io",
+                        "indices": [0, 23]
+                    }]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 9779,
+            "friends_count": 319,
+            "listed_count": 472,
+            "created_at": "Sat May 22 15:41:38 +0000 2010",
+            "favourites_count": 7515,
+            "utc_offset": -7200,
+            "time_zone": "Greenland",
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 26151,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": true,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/850513445954830336/uPwfCxB5_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/850513445954830336/uPwfCxB5_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/146878311/1491613139",
+            "profile_link_color": "ABB8C2",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 85,
+        "favorite_count": 189,
+        "favorited": true,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 85,
+    "favorite_count": 0,
+    "favorited": true,
+    "retweeted": false,
+    "lang": "en"
+}, {
+    "created_at": "Tue Jun 20 04:10:46 +0000 2017",
+    "id": 877015846857580500,
+    "id_str": "877015846857580544",
+    "text": "Angular Material beta.7 is out: new components, typography extension to theming, Universal support, and more!… https://t.co/4YNuZO0EUB",
+    "truncated": true,
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [{
+            "url": "https://t.co/4YNuZO0EUB",
+            "expanded_url": "https://twitter.com/i/web/status/877015846857580544",
+            "display_url": "twitter.com/i/web/status/8…",
+            "indices": [111, 134]
+        }]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 202230373,
+        "id_str": "202230373",
+        "name": "Angular",
+        "screen_name": "angular",
+        "location": "",
+        "description": "One framework.\nMobile & desktop.",
+        "url": "https://t.co/ijlKFnW0VL",
+        "entities": {
+            "url": {
+                "urls": [{
+                    "url": "https://t.co/ijlKFnW0VL",
+                    "expanded_url": "https://angular.io",
+                    "display_url": "angular.io",
+                    "indices": [0, 23]
+                }]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 228292,
+        "friends_count": 121,
+        "listed_count": 3921,
+        "created_at": "Wed Oct 13 15:49:37 +0000 2010",
+        "favourites_count": 1841,
+        "utc_offset": -25200,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 2778,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://localhost:3000/userpic.jpg",
+        "profile_image_url_https": "http://localhost:3000/userpic.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/202230373/1462066193",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 329,
+    "favorite_count": 518,
+    "favorited": true,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+}, {
+    "created_at": "Tue Jun 20 04:06:26 +0000 2017",
+    "id": 877014756132929500,
+    "id_str": "877014756132929537",
+    "text": "RT @jelbourn: Check out the new theme switcher on https://t.co/Bj4J3hVM9z https://t.co/AZqUvegpGy",
+    "truncated": false,
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [{
+            "screen_name": "jelbourn",
+            "name": "Jeremy Elbourn",
+            "id": 66845001,
+            "id_str": "66845001",
+            "indices": [3, 12]
+        }],
+        "urls": [{
+            "url": "https://t.co/Bj4J3hVM9z",
+            "expanded_url": "https://material.angular.io",
+            "display_url": "material.angular.io",
+            "indices": [50, 73]
+        }],
+        "media": [{
+            "id": 876974849951912000,
+            "id_str": "876974849951911936",
+            "indices": [74, 97],
+            "media_url": "http://pbs.twimg.com/media/DCuj-shV0AAOMUl.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/DCuj-shV0AAOMUl.jpg",
+            "url": "https://t.co/AZqUvegpGy",
+            "display_url": "pic.twitter.com/AZqUvegpGy",
+            "expanded_url": "https://twitter.com/jelbourn/status/876975076725346304/photo/1",
+            "type": "photo",
+            "sizes": {
+                "small": {
+                    "w": 680,
+                    "h": 443,
+                    "resize": "fit"
+                },
+                "large": {
+                    "w": 1244,
+                    "h": 810,
+                    "resize": "fit"
+                },
+                "medium": {
+                    "w": 1200,
+                    "h": 781,
+                    "resize": "fit"
+                },
+                "thumb": {
+                    "w": 150,
+                    "h": 150,
+                    "resize": "crop"
+                }
+            },
+            "source_status_id": 876975076725346300,
+            "source_status_id_str": "876975076725346304",
+            "source_user_id": 66845001,
+            "source_user_id_str": "66845001"
+        }]
+    },
+    "extended_entities": {
+        "media": [{
+            "id": 876974849951912000,
+            "id_str": "876974849951911936",
+            "indices": [74, 97],
+            "media_url": "http://pbs.twimg.com/media/DCuj-shV0AAOMUl.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/DCuj-shV0AAOMUl.jpg",
+            "url": "https://t.co/AZqUvegpGy",
+            "display_url": "pic.twitter.com/AZqUvegpGy",
+            "expanded_url": "https://twitter.com/jelbourn/status/876975076725346304/photo/1",
+            "type": "photo",
+            "sizes": {
+                "small": {
+                    "w": 680,
+                    "h": 443,
+                    "resize": "fit"
+                },
+                "large": {
+                    "w": 1244,
+                    "h": 810,
+                    "resize": "fit"
+                },
+                "medium": {
+                    "w": 1200,
+                    "h": 781,
+                    "resize": "fit"
+                },
+                "thumb": {
+                    "w": 150,
+                    "h": 150,
+                    "resize": "crop"
+                }
+            },
+            "source_status_id": 876975076725346300,
+            "source_status_id_str": "876975076725346304",
+            "source_user_id": 66845001,
+            "source_user_id_str": "66845001"
+        }, {
+            "id": 876975000284143600,
+            "id_str": "876975000284143616",
+            "indices": [74, 97],
+            "media_url": "http://pbs.twimg.com/media/DCukHcjVoAAdPz-.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/DCukHcjVoAAdPz-.jpg",
+            "url": "https://t.co/AZqUvegpGy",
+            "display_url": "pic.twitter.com/AZqUvegpGy",
+            "expanded_url": "https://twitter.com/jelbourn/status/876975076725346304/photo/1",
+            "type": "photo",
+            "sizes": {
+                "small": {
+                    "w": 680,
+                    "h": 416,
+                    "resize": "fit"
+                },
+                "thumb": {
+                    "w": 150,
+                    "h": 150,
+                    "resize": "crop"
+                },
+                "large": {
+                    "w": 1244,
+                    "h": 761,
+                    "resize": "fit"
+                },
+                "medium": {
+                    "w": 1200,
+                    "h": 734,
+                    "resize": "fit"
+                }
+            },
+            "source_status_id": 876975076725346300,
+            "source_status_id_str": "876975076725346304",
+            "source_user_id": 66845001,
+            "source_user_id_str": "66845001"
+        }]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 202230373,
+        "id_str": "202230373",
+        "name": "Angular",
+        "screen_name": "angular",
+        "location": "",
+        "description": "One framework.\nMobile & desktop.",
+        "url": "https://t.co/ijlKFnW0VL",
+        "entities": {
+            "url": {
+                "urls": [{
+                    "url": "https://t.co/ijlKFnW0VL",
+                    "expanded_url": "https://angular.io",
+                    "display_url": "angular.io",
+                    "indices": [0, 23]
+                }]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 228292,
+        "friends_count": 121,
+        "listed_count": 3921,
+        "created_at": "Wed Oct 13 15:49:37 +0000 2010",
+        "favourites_count": 1841,
+        "utc_offset": -25200,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 2778,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://localhost:3000/userpic.jpg",
+        "profile_image_url_https": "http://localhost:3000/userpic.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/202230373/1462066193",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Tue Jun 20 01:28:46 +0000 2017",
+        "id": 876975076725346300,
+        "id_str": "876975076725346304",
+        "text": "Check out the new theme switcher on https://t.co/Bj4J3hVM9z https://t.co/AZqUvegpGy",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [{
+                "url": "https://t.co/Bj4J3hVM9z",
+                "expanded_url": "https://material.angular.io",
+                "display_url": "material.angular.io",
+                "indices": [36, 59]
+            }],
+            "media": [{
+                "id": 876974849951912000,
+                "id_str": "876974849951911936",
+                "indices": [60, 83],
+                "media_url": "http://pbs.twimg.com/media/DCuj-shV0AAOMUl.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/DCuj-shV0AAOMUl.jpg",
+                "url": "https://t.co/AZqUvegpGy",
+                "display_url": "pic.twitter.com/AZqUvegpGy",
+                "expanded_url": "https://twitter.com/jelbourn/status/876975076725346304/photo/1",
+                "type": "photo",
+                "sizes": {
+                    "small": {
+                        "w": 680,
+                        "h": 443,
+                        "resize": "fit"
+                    },
+                    "large": {
+                        "w": 1244,
+                        "h": 810,
+                        "resize": "fit"
+                    },
+                    "medium": {
+                        "w": 1200,
+                        "h": 781,
+                        "resize": "fit"
+                    },
+                    "thumb": {
+                        "w": 150,
+                        "h": 150,
+                        "resize": "crop"
+                    }
+                }
+            }]
+        },
+        "extended_entities": {
+            "media": [{
+                "id": 876974849951912000,
+                "id_str": "876974849951911936",
+                "indices": [60, 83],
+                "media_url": "http://pbs.twimg.com/media/DCuj-shV0AAOMUl.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/DCuj-shV0AAOMUl.jpg",
+                "url": "https://t.co/AZqUvegpGy",
+                "display_url": "pic.twitter.com/AZqUvegpGy",
+                "expanded_url": "https://twitter.com/jelbourn/status/876975076725346304/photo/1",
+                "type": "photo",
+                "sizes": {
+                    "small": {
+                        "w": 680,
+                        "h": 443,
+                        "resize": "fit"
+                    },
+                    "large": {
+                        "w": 1244,
+                        "h": 810,
+                        "resize": "fit"
+                    },
+                    "medium": {
+                        "w": 1200,
+                        "h": 781,
+                        "resize": "fit"
+                    },
+                    "thumb": {
+                        "w": 150,
+                        "h": 150,
+                        "resize": "crop"
+                    }
+                }
+            }, {
+                "id": 876975000284143600,
+                "id_str": "876975000284143616",
+                "indices": [60, 83],
+                "media_url": "http://pbs.twimg.com/media/DCukHcjVoAAdPz-.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/DCukHcjVoAAdPz-.jpg",
+                "url": "https://t.co/AZqUvegpGy",
+                "display_url": "pic.twitter.com/AZqUvegpGy",
+                "expanded_url": "https://twitter.com/jelbourn/status/876975076725346304/photo/1",
+                "type": "photo",
+                "sizes": {
+                    "small": {
+                        "w": 680,
+                        "h": 416,
+                        "resize": "fit"
+                    },
+                    "thumb": {
+                        "w": 150,
+                        "h": 150,
+                        "resize": "crop"
+                    },
+                    "large": {
+                        "w": 1244,
+                        "h": 761,
+                        "resize": "fit"
+                    },
+                    "medium": {
+                        "w": 1200,
+                        "h": 734,
+                        "resize": "fit"
+                    }
+                }
+            }]
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 66845001,
+            "id_str": "66845001",
+            "name": "Jeremy Elbourn",
+            "screen_name": "jelbourn",
+            "location": "California, USA",
+            "description": "FE Engineer @ Google on the Angular team.",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 2452,
+            "friends_count": 68,
+            "listed_count": 99,
+            "created_at": "Tue Aug 18 23:54:21 +0000 2009",
+            "favourites_count": 33,
+            "utc_offset": -14400,
+            "time_zone": "Eastern Time (US & Canada)",
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 353,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "131516",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+            "profile_background_tile": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/720419601436123136/eXIcnCM1_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/720419601436123136/eXIcnCM1_normal.jpg",
+            "profile_link_color": "009999",
+            "profile_sidebar_border_color": "EEEEEE",
+            "profile_sidebar_fill_color": "EFEFEF",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 92,
+        "favorite_count": 208,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 92,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+}, {
+    "created_at": "Tue Jun 13 21:44:21 +0000 2017",
+    "id": 874744274776084500,
+    "id_str": "874744274776084480",
+    "text": "RT @stephenfluin: Ever wondered about all of the features you can configure in the #angular service-worker? https://t.co/RW7ezYhgIC https:/…",
+    "truncated": false,
+    "entities": {
+        "hashtags": [{
+            "text": "angular",
+            "indices": [83, 91]
+        }],
+        "symbols": [],
+        "user_mentions": [{
+            "screen_name": "stephenfluin",
+            "name": "Stephen Fluin",
+            "id": 15313446,
+            "id_str": "15313446",
+            "indices": [3, 16]
+        }],
+        "urls": [{
+            "url": "https://t.co/RW7ezYhgIC",
+            "expanded_url": "https://fluin.io/blog/angular-service-worker",
+            "display_url": "fluin.io/blog/angular-s…",
+            "indices": [108, 131]
+        }]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 202230373,
+        "id_str": "202230373",
+        "name": "Angular",
+        "screen_name": "angular",
+        "location": "",
+        "description": "One framework.\nMobile & desktop.",
+        "url": "https://t.co/ijlKFnW0VL",
+        "entities": {
+            "url": {
+                "urls": [{
+                    "url": "https://t.co/ijlKFnW0VL",
+                    "expanded_url": "https://angular.io",
+                    "display_url": "angular.io",
+                    "indices": [0, 23]
+                }]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 228292,
+        "friends_count": 121,
+        "listed_count": 3921,
+        "created_at": "Wed Oct 13 15:49:37 +0000 2010",
+        "favourites_count": 1841,
+        "utc_offset": -25200,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 2778,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://localhost:3000/userpic.jpg",
+        "profile_image_url_https": "http://localhost:3000/userpic.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/202230373/1462066193",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Fri Jun 02 20:57:43 +0000 2017",
+        "id": 870746270247157800,
+        "id_str": "870746270247157760",
+        "text": "Ever wondered about all of the features you can configure in the #angular service-worker? https://t.co/RW7ezYhgIC https://t.co/0iLSAlbGvD",
+        "truncated": false,
+        "entities": {
+            "hashtags": [{
+                "text": "angular",
+                "indices": [65, 73]
+            }],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [{
+                "url": "https://t.co/RW7ezYhgIC",
+                "expanded_url": "https://fluin.io/blog/angular-service-worker",
+                "display_url": "fluin.io/blog/angular-s…",
+                "indices": [90, 113]
+            }],
+            "media": [{
+                "id": 870746164726865900,
+                "id_str": "870746164726865920",
+                "indices": [114, 137],
+                "media_url": "http://pbs.twimg.com/media/DBWDBf4UIAAPp3b.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/DBWDBf4UIAAPp3b.jpg",
+                "url": "https://t.co/0iLSAlbGvD",
+                "display_url": "pic.twitter.com/0iLSAlbGvD",
+                "expanded_url": "https://twitter.com/stephenfluin/status/870746270247157760/photo/1",
+                "type": "photo",
+                "sizes": {
+                    "thumb": {
+                        "w": 150,
+                        "h": 150,
+                        "resize": "crop"
+                    },
+                    "small": {
+                        "w": 680,
+                        "h": 517,
+                        "resize": "fit"
+                    },
+                    "large": {
+                        "w": 862,
+                        "h": 656,
+                        "resize": "fit"
+                    },
+                    "medium": {
+                        "w": 862,
+                        "h": 656,
+                        "resize": "fit"
+                    }
+                }
+            }]
+        },
+        "extended_entities": {
+            "media": [{
+                "id": 870746164726865900,
+                "id_str": "870746164726865920",
+                "indices": [114, 137],
+                "media_url": "http://pbs.twimg.com/media/DBWDBf4UIAAPp3b.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/DBWDBf4UIAAPp3b.jpg",
+                "url": "https://t.co/0iLSAlbGvD",
+                "display_url": "pic.twitter.com/0iLSAlbGvD",
+                "expanded_url": "https://twitter.com/stephenfluin/status/870746270247157760/photo/1",
+                "type": "photo",
+                "sizes": {
+                    "thumb": {
+                        "w": 150,
+                        "h": 150,
+                        "resize": "crop"
+                    },
+                    "small": {
+                        "w": 680,
+                        "h": 517,
+                        "resize": "fit"
+                    },
+                    "large": {
+                        "w": 862,
+                        "h": 656,
+                        "resize": "fit"
+                    },
+                    "medium": {
+                        "w": 862,
+                        "h": 656,
+                        "resize": "fit"
+                    }
+                }
+            }]
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 15313446,
+            "id_str": "15313446",
+            "name": "Stephen Fluin",
+            "screen_name": "stephenfluin",
+            "location": "California, USA",
+            "description": "Developer Advocate @ Google",
+            "url": "https://t.co/MmEB0koeFN",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "https://t.co/MmEB0koeFN",
+                        "expanded_url": "https://fluin.io",
+                        "display_url": "fluin.io",
+                        "indices": [0, 23]
+                    }]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1908,
+            "friends_count": 152,
+            "listed_count": 123,
+            "created_at": "Thu Jul 03 23:02:25 +0000 2008",
+            "favourites_count": 336,
+            "utc_offset": -18000,
+            "time_zone": "Central Time (US & Canada)",
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 886,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/420902127259889664/jKmT07lI_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/420902127259889664/jKmT07lI_normal.jpeg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/15313446/1399196030",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 61,
+        "favorite_count": 132,
+        "favorited": true,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 61,
+    "favorite_count": 0,
+    "favorited": true,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+}, {
+    "created_at": "Tue Jun 13 21:44:10 +0000 2017",
+    "id": 874744229381128200,
+    "id_str": "874744229381128194",
+    "text": "RT @scotch_io: Angular v2+ HTTP Requests with Observables by @codebeast #angular #javascript https://t.co/j8RfIOHoRO",
+    "truncated": false,
+    "entities": {
+        "hashtags": [{
+            "text": "angular",
+            "indices": [72, 80]
+        }, {
+            "text": "javascript",
+            "indices": [81, 92]
+        }],
+        "symbols": [],
+        "user_mentions": [{
+            "screen_name": "scotch_io",
+            "name": "Scotch.io",
+            "id": 1122906733,
+            "id_str": "1122906733",
+            "indices": [3, 13]
+        }, {
+            "screen_name": "codebeast",
+            "name": "Chris Nwamba",
+            "id": 811098595,
+            "id_str": "811098595",
+            "indices": [61, 71]
+        }],
+        "urls": [{
+            "url": "https://t.co/j8RfIOHoRO",
+            "expanded_url": "http://buff.ly/2r2z4pG",
+            "display_url": "buff.ly/2r2z4pG",
+            "indices": [93, 116]
+        }]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 202230373,
+        "id_str": "202230373",
+        "name": "Angular",
+        "screen_name": "angular",
+        "location": "",
+        "description": "One framework.\nMobile & desktop.",
+        "url": "https://t.co/ijlKFnW0VL",
+        "entities": {
+            "url": {
+                "urls": [{
+                    "url": "https://t.co/ijlKFnW0VL",
+                    "expanded_url": "https://angular.io",
+                    "display_url": "angular.io",
+                    "indices": [0, 23]
+                }]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 228292,
+        "friends_count": 121,
+        "listed_count": 3921,
+        "created_at": "Wed Oct 13 15:49:37 +0000 2010",
+        "favourites_count": 1841,
+        "utc_offset": -25200,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 2778,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://localhost:3000/userpic.jpg",
+        "profile_image_url_https": "http://localhost:3000/userpic.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/202230373/1462066193",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Wed Jun 07 16:17:38 +0000 2017",
+        "id": 872487725659820000,
+        "id_str": "872487725659820032",
+        "text": "Angular v2+ HTTP Requests with Observables by @codebeast #angular #javascript https://t.co/j8RfIOHoRO",
+        "truncated": false,
+        "entities": {
+            "hashtags": [{
+                "text": "angular",
+                "indices": [57, 65]
+            }, {
+                "text": "javascript",
+                "indices": [66, 77]
+            }],
+            "symbols": [],
+            "user_mentions": [{
+                "screen_name": "codebeast",
+                "name": "Chris Nwamba",
+                "id": 811098595,
+                "id_str": "811098595",
+                "indices": [46, 56]
+            }],
+            "urls": [{
+                "url": "https://t.co/j8RfIOHoRO",
+                "expanded_url": "http://buff.ly/2r2z4pG",
+                "display_url": "buff.ly/2r2z4pG",
+                "indices": [78, 101]
+            }]
+        },
+        "source": "<a href=\"http://bufferapp.com\" rel=\"nofollow\">Buffer</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 1122906733,
+            "id_str": "1122906733",
+            "name": "Scotch.io",
+            "screen_name": "scotch_io",
+            "location": "Las Vegas, NV",
+            "description": "Insightful web design/development articles. Bringing fire to the people. By @chrisoncode and @whatnicktweets",
+            "url": "https://t.co/Q5PlvEDmY1",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "https://t.co/Q5PlvEDmY1",
+                        "expanded_url": "http://scotch.io",
+                        "display_url": "scotch.io",
+                        "indices": [0, 23]
+                    }]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 45710,
+            "friends_count": 19585,
+            "listed_count": 1287,
+            "created_at": "Sat Jan 26 19:12:28 +0000 2013",
+            "favourites_count": 2185,
+            "utc_offset": -25200,
+            "time_zone": "Pacific Time (US & Canada)",
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 4201,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "E774F2",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/438123409394790401/hkZ0K8oi.png",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/438123409394790401/hkZ0K8oi.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/839897125655764994/GYd7zPsP_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/839897125655764994/GYd7zPsP_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1122906733/1411179319",
+            "profile_link_color": "5D1624",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 82,
+        "favorite_count": 188,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 82,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+}, {
+    "created_at": "Tue Jun 13 21:44:03 +0000 2017",
+    "id": 874744197177155600,
+    "id_str": "874744197177155584",
+    "text": "RT @toddmotto: 🚀 Super excited to officially announce @ultimateangular workshops!\n🔥 Have a training requirement? Talk to us!\n🔗 https://t.co…",
+    "truncated": false,
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [{
+            "screen_name": "toddmotto",
+            "name": "Todd Motto",
+            "id": 222638700,
+            "id_str": "222638700",
+            "indices": [3, 13]
+        }, {
+            "screen_name": "ultimateangular",
+            "name": "Ultimate Angular",
+            "id": 772818895023566800,
+            "id_str": "772818895023566848",
+            "indices": [54, 70]
+        }],
+        "urls": []
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 202230373,
+        "id_str": "202230373",
+        "name": "Angular",
+        "screen_name": "angular",
+        "location": "",
+        "description": "One framework.\nMobile & desktop.",
+        "url": "https://t.co/ijlKFnW0VL",
+        "entities": {
+            "url": {
+                "urls": [{
+                    "url": "https://t.co/ijlKFnW0VL",
+                    "expanded_url": "https://angular.io",
+                    "display_url": "angular.io",
+                    "indices": [0, 23]
+                }]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 228292,
+        "friends_count": 121,
+        "listed_count": 3921,
+        "created_at": "Wed Oct 13 15:49:37 +0000 2010",
+        "favourites_count": 1841,
+        "utc_offset": -25200,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 2778,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://localhost:3000/userpic.jpg",
+        "profile_image_url_https": "http://localhost:3000/userpic.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/202230373/1462066193",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Thu Jun 08 13:26:16 +0000 2017",
+        "id": 872806989281275900,
+        "id_str": "872806989281275904",
+        "text": "🚀 Super excited to officially announce @ultimateangular workshops!\n🔥 Have a training requirement? Talk to us!\n🔗… https://t.co/yMBvRRAJeo",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [{
+                "screen_name": "ultimateangular",
+                "name": "Ultimate Angular",
+                "id": 772818895023566800,
+                "id_str": "772818895023566848",
+                "indices": [39, 55]
+            }],
+            "urls": [{
+                "url": "https://t.co/yMBvRRAJeo",
+                "expanded_url": "https://twitter.com/i/web/status/872806989281275904",
+                "display_url": "twitter.com/i/web/status/8…",
+                "indices": [113, 136]
+            }]
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 222638700,
+            "id_str": "222638700",
+            "name": "Todd Motto",
+            "screen_name": "toddmotto",
+            "location": "☂ England, UK",
+            "description": "⚡️ Owner / trainer @UltimateAngular. Developer Expert @Google for Angular and Web. Engaged to @RachaelLPurser. @ken_wheeler advocate. Science and space nerd.",
+            "url": "https://t.co/R0BRE3kBJB",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "https://t.co/R0BRE3kBJB",
+                        "expanded_url": "https://toddmotto.com",
+                        "display_url": "toddmotto.com",
+                        "indices": [0, 23]
+                    }]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 34567,
+            "friends_count": 724,
+            "listed_count": 1352,
+            "created_at": "Sat Dec 04 00:31:42 +0000 2010",
+            "favourites_count": 17498,
+            "utc_offset": 3600,
+            "time_zone": "London",
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 46363,
+            "lang": "en-gb",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "333333",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/588278060/6viy7pszdedjdjjqn6dc.jpeg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/588278060/6viy7pszdedjdjjqn6dc.jpeg",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/802626927391608833/MmHHmVfD_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/802626927391608833/MmHHmVfD_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/222638700/1475250176",
+            "profile_link_color": "981CEB",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "FFFFFF",
+            "profile_text_color": "706E70",
+            "profile_use_background_image": false,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "regular"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": {
+            "id": "4a3db0934d37522f",
+            "url": "https://api.twitter.com/1.1/geo/id/4a3db0934d37522f.json",
+            "place_type": "city",
+            "name": "Melksham",
+            "full_name": "Melksham, England",
+            "country_code": "GB",
+            "country": "United Kingdom",
+            "contained_within": [],
+            "bounding_box": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [-2.153043, 51.352531],
+                        [-2.1107425, 51.352531],
+                        [-2.1107425, 51.388976],
+                        [-2.153043, 51.388976]
+                    ]
+                ]
+            },
+            "attributes": {}
+        },
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 49,
+        "favorite_count": 124,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 49,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+}, {
+    "created_at": "Tue Jun 13 21:43:51 +0000 2017",
+    "id": 874744147097276400,
+    "id_str": "874744147097276416",
+    "text": "RT @IgorMinar: We've just launched our service worker pilot @ angular.io. Unless there are surprises @angular/service-worker will be out of…",
+    "truncated": false,
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [{
+            "screen_name": "IgorMinar",
+            "name": "Igor Minar",
+            "id": 8300112,
+            "id_str": "8300112",
+            "indices": [3, 13]
+        }],
+        "urls": []
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 202230373,
+        "id_str": "202230373",
+        "name": "Angular",
+        "screen_name": "angular",
+        "location": "",
+        "description": "One framework.\nMobile & desktop.",
+        "url": "https://t.co/ijlKFnW0VL",
+        "entities": {
+            "url": {
+                "urls": [{
+                    "url": "https://t.co/ijlKFnW0VL",
+                    "expanded_url": "https://angular.io",
+                    "display_url": "angular.io",
+                    "indices": [0, 23]
+                }]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 228292,
+        "friends_count": 121,
+        "listed_count": 3921,
+        "created_at": "Wed Oct 13 15:49:37 +0000 2010",
+        "favourites_count": 1841,
+        "utc_offset": -25200,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 2778,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://localhost:3000/userpic.jpg",
+        "profile_image_url_https": "http://localhost:3000/userpic.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/202230373/1462066193",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Tue Jun 13 01:05:14 +0000 2017",
+        "id": 874432441288540200,
+        "id_str": "874432441288540161",
+        "text": "We've just launched our service worker pilot @ angular.io. Unless there are surprises @angular/service-worker will… https://t.co/wBdZGhUbLx",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [{
+                "url": "https://t.co/wBdZGhUbLx",
+                "expanded_url": "https://twitter.com/i/web/status/874432441288540161",
+                "display_url": "twitter.com/i/web/status/8…",
+                "indices": [116, 139]
+            }]
+        },
+        "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 8300112,
+            "id_str": "8300112",
+            "name": "Igor Minar",
+            "screen_name": "IgorMinar",
+            "location": "Somewhere",
+            "description": "Software geek changing the web with https://t.co/ijlKFodCkl",
+            "url": "https://t.co/jJZbE5BBqQ",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "https://t.co/jJZbE5BBqQ",
+                        "expanded_url": "http://blog.igorminar.com",
+                        "display_url": "blog.igorminar.com",
+                        "indices": [0, 23]
+                    }]
+                },
+                "description": {
+                    "urls": [{
+                        "url": "https://t.co/ijlKFodCkl",
+                        "expanded_url": "https://angular.io",
+                        "display_url": "angular.io",
+                        "indices": [36, 59]
+                    }]
+                }
+            },
+            "protected": false,
+            "followers_count": 16674,
+            "friends_count": 182,
+            "listed_count": 566,
+            "created_at": "Mon Aug 20 07:37:22 +0000 2007",
+            "favourites_count": 1076,
+            "utc_offset": -25200,
+            "time_zone": "Pacific Time (US & Canada)",
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 5770,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "9AE4E8",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme16/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme16/bg.gif",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/843309367436836865/rDa1m7Wl_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/843309367436836865/rDa1m7Wl_normal.jpg",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "BDDCAD",
+            "profile_sidebar_fill_color": "DDFFCC",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 205,
+        "favorite_count": 358,
+        "favorited": true,
+        "retweeted": true,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 205,
+    "favorite_count": 0,
+    "favorited": true,
+    "retweeted": true,
+    "lang": "en"
+}, {
+    "created_at": "Tue Jun 13 21:43:39 +0000 2017",
+    "id": 874744096299991000,
+    "id_str": "874744096299991040",
+    "text": "RT @lizbrownsays: I'm really looking to connect with more #womenintech that work with #angular. Come out and join me, @paulpaultweets, and…",
+    "truncated": false,
+    "entities": {
+        "hashtags": [{
+            "text": "womenintech",
+            "indices": [58, 70]
+        }, {
+            "text": "angular",
+            "indices": [86, 94]
+        }],
+        "symbols": [],
+        "user_mentions": [{
+            "screen_name": "lizbrownsays",
+            "name": "Liz Brown",
+            "id": 1636757636,
+            "id_str": "1636757636",
+            "indices": [3, 16]
+        }, {
+            "screen_name": "paulpaultweets",
+            "name": "Paulina Gallo",
+            "id": 4504623137,
+            "id_str": "4504623137",
+            "indices": [118, 133]
+        }],
+        "urls": []
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 202230373,
+        "id_str": "202230373",
+        "name": "Angular",
+        "screen_name": "angular",
+        "location": "",
+        "description": "One framework.\nMobile & desktop.",
+        "url": "https://t.co/ijlKFnW0VL",
+        "entities": {
+            "url": {
+                "urls": [{
+                    "url": "https://t.co/ijlKFnW0VL",
+                    "expanded_url": "https://angular.io",
+                    "display_url": "angular.io",
+                    "indices": [0, 23]
+                }]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 228292,
+        "friends_count": 121,
+        "listed_count": 3921,
+        "created_at": "Wed Oct 13 15:49:37 +0000 2010",
+        "favourites_count": 1841,
+        "utc_offset": -25200,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 2778,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://localhost:3000/userpic.jpg",
+        "profile_image_url_https": "http://localhost:3000/userpic.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/202230373/1462066193",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Tue Jun 13 10:36:56 +0000 2017",
+        "id": 874576313344032800,
+        "id_str": "874576313344032768",
+        "text": "I'm really looking to connect with more #womenintech that work with #angular. Come out and join me, @paulpaultweets… https://t.co/YszSlJbyCB",
+        "truncated": true,
+        "entities": {
+            "hashtags": [{
+                "text": "womenintech",
+                "indices": [40, 52]
+            }, {
+                "text": "angular",
+                "indices": [68, 76]
+            }],
+            "symbols": [],
+            "user_mentions": [{
+                "screen_name": "paulpaultweets",
+                "name": "Paulina Gallo",
+                "id": 4504623137,
+                "id_str": "4504623137",
+                "indices": [100, 115]
+            }],
+            "urls": [{
+                "url": "https://t.co/YszSlJbyCB",
+                "expanded_url": "https://twitter.com/i/web/status/874576313344032768",
+                "display_url": "twitter.com/i/web/status/8…",
+                "indices": [117, 140]
+            }]
+        },
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 1636757636,
+            "id_str": "1636757636",
+            "name": "Liz Brown",
+            "screen_name": "lizbrownsays",
+            "location": "Philadelphia, PA. Kingston, NY",
+            "description": "Co-CEO and Head of Design @Webjunto, #UX Designer, Civic Hacker, Urban Planner, etc. I help #startups and #entrepreneurs design and develop kickass apps.",
+            "url": "https://t.co/v3aaJkbvCs",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "https://t.co/v3aaJkbvCs",
+                        "expanded_url": "http://www.webjunto.com",
+                        "display_url": "webjunto.com",
+                        "indices": [0, 23]
+                    }]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 2200,
+            "friends_count": 3202,
+            "listed_count": 225,
+            "created_at": "Thu Aug 01 00:43:18 +0000 2013",
+            "favourites_count": 2723,
+            "utc_offset": -14400,
+            "time_zone": "Eastern Time (US & Canada)",
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 6488,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "3B94D9",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/743627004126310400/zmMdXkxK_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/743627004126310400/zmMdXkxK_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1636757636/1496420744",
+            "profile_link_color": "3B94D9",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": true,
+        "quoted_status_id": 874574057898954800,
+        "quoted_status_id_str": "874574057898954752",
+        "quoted_status": {
+            "created_at": "Tue Jun 13 10:27:58 +0000 2017",
+            "id": 874574057898954800,
+            "id_str": "874574057898954752",
+            "text": "Last chance to buy regular price tickets for #AngularCamp. Prices are rising on June 19th. Secure your seat now!… https://t.co/lVUyyS9kmm",
+            "truncated": true,
+            "entities": {
+                "hashtags": [{
+                    "text": "AngularCamp",
+                    "indices": [45, 57]
+                }],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [{
+                    "url": "https://t.co/lVUyyS9kmm",
+                    "expanded_url": "https://twitter.com/i/web/status/874574057898954752",
+                    "display_url": "twitter.com/i/web/status/8…",
+                    "indices": [114, 137]
+                }]
+            },
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 3156678513,
+                "id_str": "3156678513",
+                "name": "AngularCamp",
+                "screen_name": "AngularCamp",
+                "location": "Barcelona",
+                "description": "Coming to Barcelona ☀️ July 6-7, 2017  ❯ Dev. Camp focused on the community that puts together developers like you  #JavaScript • #Angular • #WebTechnologies",
+                "url": "https://t.co/6KYyyvWt9K",
+                "entities": {
+                    "url": {
+                        "urls": [{
+                            "url": "https://t.co/6KYyyvWt9K",
+                            "expanded_url": "https://angularcamp.org",
+                            "display_url": "angularcamp.org",
+                            "indices": [0, 23]
+                        }]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 2100,
+                "friends_count": 2076,
+                "listed_count": 98,
+                "created_at": "Sat Apr 11 15:20:22 +0000 2015",
+                "favourites_count": 1932,
+                "utc_offset": -25200,
+                "time_zone": "Pacific Time (US & Canada)",
+                "geo_enabled": true,
+                "verified": false,
+                "statuses_count": 2165,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/688526786750189568/Y_Lyphx2.jpg",
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/688526786750189568/Y_Lyphx2.jpg",
+                "profile_background_tile": true,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/806271000413425664/MU632NqE_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/806271000413425664/MU632NqE_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/3156678513/1496390723",
+                "profile_link_color": "0084B4",
+                "profile_sidebar_border_color": "000000",
+                "profile_sidebar_fill_color": "000000",
+                "profile_text_color": "000000",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": true,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": {
+                "id": "1a27537478dd8e38",
+                "url": "https://api.twitter.com/1.1/geo/id/1a27537478dd8e38.json",
+                "place_type": "city",
+                "name": "Barcelona",
+                "full_name": "Barcelona, Spain",
+                "country_code": "ES",
+                "country": "Spain",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [2.0524766, 41.3170475],
+                            [2.2299781, 41.3170475],
+                            [2.2299781, 41.4682658],
+                            [2.0524766, 41.4682658]
+                        ]
+                    ]
+                },
+                "attributes": {}
+            },
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 7,
+            "favorite_count": 4,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        "retweet_count": 16,
+        "favorite_count": 21,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    "is_quote_status": true,
+    "quoted_status_id": 874574057898954800,
+    "quoted_status_id_str": "874574057898954752",
+    "retweet_count": 16,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+}, {
+    "created_at": "Tue Jun 13 21:43:25 +0000 2017",
+    "id": 874744039722987500,
+    "id_str": "874744039722987520",
+    "text": "RT @John_Papa: Want to learn how to enjoy @Angular even more? Check out my course Angular CLI on @Pluralsight. https://t.co/USP1uAQZb3 http…",
+    "truncated": false,
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [{
+            "screen_name": "John_Papa",
+            "name": "John Papa",
+            "id": 14660297,
+            "id_str": "14660297",
+            "indices": [3, 13]
+        }, {
+            "screen_name": "angular",
+            "name": "Angular",
+            "id": 202230373,
+            "id_str": "202230373",
+            "indices": [42, 50]
+        }, {
+            "screen_name": "pluralsight",
+            "name": "Pluralsight",
+            "id": 19253334,
+            "id_str": "19253334",
+            "indices": [97, 109]
+        }],
+        "urls": [{
+            "url": "https://t.co/USP1uAQZb3",
+            "expanded_url": "http://jpapa.me/ps-ng-cli",
+            "display_url": "jpapa.me/ps-ng-cli",
+            "indices": [111, 134]
+        }]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 202230373,
+        "id_str": "202230373",
+        "name": "Angular",
+        "screen_name": "angular",
+        "location": "",
+        "description": "One framework.\nMobile & desktop.",
+        "url": "https://t.co/ijlKFnW0VL",
+        "entities": {
+            "url": {
+                "urls": [{
+                    "url": "https://t.co/ijlKFnW0VL",
+                    "expanded_url": "https://angular.io",
+                    "display_url": "angular.io",
+                    "indices": [0, 23]
+                }]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 228292,
+        "friends_count": 121,
+        "listed_count": 3921,
+        "created_at": "Wed Oct 13 15:49:37 +0000 2010",
+        "favourites_count": 1841,
+        "utc_offset": -25200,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 2778,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://localhost:3000/userpic.jpg",
+        "profile_image_url_https": "http://localhost:3000/userpic.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/202230373/1462066193",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Tue Jun 13 19:53:34 +0000 2017",
+        "id": 874716395199746000,
+        "id_str": "874716395199746049",
+        "text": "Want to learn how to enjoy @Angular even more? Check out my course Angular CLI on @Pluralsight.… https://t.co/1oHYz3EM1f",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [{
+                "screen_name": "angular",
+                "name": "Angular",
+                "id": 202230373,
+                "id_str": "202230373",
+                "indices": [27, 35]
+            }, {
+                "screen_name": "pluralsight",
+                "name": "Pluralsight",
+                "id": 19253334,
+                "id_str": "19253334",
+                "indices": [82, 94]
+            }],
+            "urls": [{
+                "url": "https://t.co/1oHYz3EM1f",
+                "expanded_url": "https://twitter.com/i/web/status/874716395199746049",
+                "display_url": "twitter.com/i/web/status/8…",
+                "indices": [97, 120]
+            }]
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 14660297,
+            "id_str": "14660297",
+            "name": "John Papa",
+            "screen_name": "John_Papa",
+            "location": "Orlando, FL",
+            "description": "Husband, father, & Catholic enjoying life with my family. Disney fanatic, developer advocate @ Microsoft, HTML/CSS/JavaScript dev, speaker, & Pluralsight author",
+            "url": "https://t.co/5WYl881ol0",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "https://t.co/5WYl881ol0",
+                        "expanded_url": "http://johnpapa.net",
+                        "display_url": "johnpapa.net",
+                        "indices": [0, 23]
+                    }]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 57036,
+            "friends_count": 909,
+            "listed_count": 1873,
+            "created_at": "Mon May 05 15:00:00 +0000 2008",
+            "favourites_count": 1100,
+            "utc_offset": -14400,
+            "time_zone": "Eastern Time (US & Canada)",
+            "geo_enabled": false,
+            "verified": true,
+            "statuses_count": 34352,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "3B94D9",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/663358447/xc7ad01947879a7effa4894a19769057.png",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/663358447/xc7ad01947879a7effa4894a19769057.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/2513304786/ududkrhfpysseeidseo9_normal.png",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/2513304786/ududkrhfpysseeidseo9_normal.png",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/14660297/1354078568",
+            "profile_link_color": "1B95E0",
+            "profile_sidebar_border_color": "E76240",
+            "profile_sidebar_fill_color": "F57C38",
+            "profile_text_color": "F6DD03",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 83,
+        "favorite_count": 212,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 83,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+}, {
+    "created_at": "Thu Jun 08 15:10:40 +0000 2017",
+    "id": 872833259570249700,
+    "id_str": "872833259570249728",
+    "text": "RT @John_Papa: Register now for @AngularMix , at Royal Pacific Resort at Universal Studios FL in Oct and meet the @angular team! https://t.…",
+    "truncated": false,
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [{
+            "screen_name": "John_Papa",
+            "name": "John Papa",
+            "id": 14660297,
+            "id_str": "14660297",
+            "indices": [3, 13]
+        }, {
+            "screen_name": "AngularMix",
+            "name": "AngularMix",
+            "id": 832321877708259300,
+            "id_str": "832321877708259328",
+            "indices": [32, 43]
+        }, {
+            "screen_name": "angular",
+            "name": "Angular",
+            "id": 202230373,
+            "id_str": "202230373",
+            "indices": [114, 122]
+        }],
+        "urls": []
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 202230373,
+        "id_str": "202230373",
+        "name": "Angular",
+        "screen_name": "angular",
+        "location": "",
+        "description": "One framework.\nMobile & desktop.",
+        "url": "https://t.co/ijlKFnW0VL",
+        "entities": {
+            "url": {
+                "urls": [{
+                    "url": "https://t.co/ijlKFnW0VL",
+                    "expanded_url": "https://angular.io",
+                    "display_url": "angular.io",
+                    "indices": [0, 23]
+                }]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 228292,
+        "friends_count": 121,
+        "listed_count": 3921,
+        "created_at": "Wed Oct 13 15:49:37 +0000 2010",
+        "favourites_count": 1841,
+        "utc_offset": -25200,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 2778,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://localhost:3000/userpic.jpg",
+        "profile_image_url_https": "http://localhost:3000/userpic.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/202230373/1462066193",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Thu Jun 08 12:43:57 +0000 2017",
+        "id": 872796339918262300,
+        "id_str": "872796339918262272",
+        "text": "Register now for @AngularMix , at Royal Pacific Resort at Universal Studios FL in Oct and meet the @angular team!… https://t.co/4ChCO6oOqX",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [{
+                "screen_name": "AngularMix",
+                "name": "AngularMix",
+                "id": 832321877708259300,
+                "id_str": "832321877708259328",
+                "indices": [17, 28]
+            }, {
+                "screen_name": "angular",
+                "name": "Angular",
+                "id": 202230373,
+                "id_str": "202230373",
+                "indices": [99, 107]
+            }],
+            "urls": [{
+                "url": "https://t.co/4ChCO6oOqX",
+                "expanded_url": "https://twitter.com/i/web/status/872796339918262272",
+                "display_url": "twitter.com/i/web/status/8…",
+                "indices": [115, 138]
+            }]
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 14660297,
+            "id_str": "14660297",
+            "name": "John Papa",
+            "screen_name": "John_Papa",
+            "location": "Orlando, FL",
+            "description": "Husband, father, & Catholic enjoying life with my family. Disney fanatic, developer advocate @ Microsoft, HTML/CSS/JavaScript dev, speaker, & Pluralsight author",
+            "url": "https://t.co/5WYl881ol0",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "https://t.co/5WYl881ol0",
+                        "expanded_url": "http://johnpapa.net",
+                        "display_url": "johnpapa.net",
+                        "indices": [0, 23]
+                    }]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 57036,
+            "friends_count": 909,
+            "listed_count": 1873,
+            "created_at": "Mon May 05 15:00:00 +0000 2008",
+            "favourites_count": 1100,
+            "utc_offset": -14400,
+            "time_zone": "Eastern Time (US & Canada)",
+            "geo_enabled": false,
+            "verified": true,
+            "statuses_count": 34352,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "3B94D9",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/663358447/xc7ad01947879a7effa4894a19769057.png",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/663358447/xc7ad01947879a7effa4894a19769057.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/2513304786/ududkrhfpysseeidseo9_normal.png",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/2513304786/ududkrhfpysseeidseo9_normal.png",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/14660297/1354078568",
+            "profile_link_color": "1B95E0",
+            "profile_sidebar_border_color": "E76240",
+            "profile_sidebar_fill_color": "F57C38",
+            "profile_text_color": "F6DD03",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 32,
+        "favorite_count": 63,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 32,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+}, {
+    "created_at": "Tue Jun 06 00:59:43 +0000 2017",
+    "id": 871894337419747300,
+    "id_str": "871894337419747328",
+    "text": "RT @AngularMix: Check out @John_Papa and @stephenfluin talking about #AngularMix and join us Oct 10-12, in Orlando, FL! https://t.co/CFS3Up…",
+    "truncated": false,
+    "entities": {
+        "hashtags": [{
+            "text": "AngularMix",
+            "indices": [69, 80]
+        }],
+        "symbols": [],
+        "user_mentions": [{
+            "screen_name": "AngularMix",
+            "name": "AngularMix",
+            "id": 832321877708259300,
+            "id_str": "832321877708259328",
+            "indices": [3, 14]
+        }, {
+            "screen_name": "John_Papa",
+            "name": "John Papa",
+            "id": 14660297,
+            "id_str": "14660297",
+            "indices": [26, 36]
+        }, {
+            "screen_name": "stephenfluin",
+            "name": "Stephen Fluin",
+            "id": 15313446,
+            "id_str": "15313446",
+            "indices": [41, 54]
+        }],
+        "urls": []
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 202230373,
+        "id_str": "202230373",
+        "name": "Angular",
+        "screen_name": "angular",
+        "location": "",
+        "description": "One framework.\nMobile & desktop.",
+        "url": "https://t.co/ijlKFnW0VL",
+        "entities": {
+            "url": {
+                "urls": [{
+                    "url": "https://t.co/ijlKFnW0VL",
+                    "expanded_url": "https://angular.io",
+                    "display_url": "angular.io",
+                    "indices": [0, 23]
+                }]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 228292,
+        "friends_count": 121,
+        "listed_count": 3921,
+        "created_at": "Wed Oct 13 15:49:37 +0000 2010",
+        "favourites_count": 1841,
+        "utc_offset": -25200,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 2778,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://localhost:3000/userpic.jpg",
+        "profile_image_url_https": "http://localhost:3000/userpic.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/202230373/1462066193",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Mon Jun 05 22:49:48 +0000 2017",
+        "id": 871861642694447100,
+        "id_str": "871861642694447105",
+        "text": "Check out @John_Papa and @stephenfluin talking about #AngularMix and join us Oct 10-12, in Orlando, FL!… https://t.co/QLqrmOjggC",
+        "truncated": true,
+        "entities": {
+            "hashtags": [{
+                "text": "AngularMix",
+                "indices": [53, 64]
+            }],
+            "symbols": [],
+            "user_mentions": [{
+                "screen_name": "John_Papa",
+                "name": "John Papa",
+                "id": 14660297,
+                "id_str": "14660297",
+                "indices": [10, 20]
+            }, {
+                "screen_name": "stephenfluin",
+                "name": "Stephen Fluin",
+                "id": 15313446,
+                "id_str": "15313446",
+                "indices": [25, 38]
+            }],
+            "urls": [{
+                "url": "https://t.co/QLqrmOjggC",
+                "expanded_url": "https://twitter.com/i/web/status/871861642694447105",
+                "display_url": "twitter.com/i/web/status/8…",
+                "indices": [105, 128]
+            }]
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 832321877708259300,
+            "id_str": "832321877708259328",
+            "name": "AngularMix",
+            "screen_name": "AngularMix",
+            "location": "Orlando, FL",
+            "description": "AngularMix brings together industry experts and developers in Orlando, FL for an exciting Angular conference.  Oct 10-12. Register here https://t.co/MCFZehL9gK",
+            "url": "https://t.co/RnGqQIQV2G",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "https://t.co/RnGqQIQV2G",
+                        "expanded_url": "http://www.angularmix.com",
+                        "display_url": "angularmix.com",
+                        "indices": [0, 23]
+                    }]
+                },
+                "description": {
+                    "urls": [{
+                        "url": "https://t.co/MCFZehL9gK",
+                        "expanded_url": "http://bit.ly/2qwABmB",
+                        "display_url": "bit.ly/2qwABmB",
+                        "indices": [136, 159]
+                    }]
+                }
+            },
+            "protected": false,
+            "followers_count": 175,
+            "friends_count": 175,
+            "listed_count": 4,
+            "created_at": "Thu Feb 16 20:12:54 +0000 2017",
+            "favourites_count": 17,
+            "utc_offset": -14400,
+            "time_zone": "Eastern Time (US & Canada)",
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 48,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/854434541074882565/bXtrS-Nd_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/854434541074882565/bXtrS-Nd_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/832321877708259328/1492616282",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 16,
+        "favorite_count": 67,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 16,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+}, {
+    "created_at": "Wed May 31 20:30:01 +0000 2017",
+    "id": 870014524379734000,
+    "id_str": "870014524379734016",
+    "text": "RT @AngularConnect: 🎉 Round 1 tickets sold out in 18 minutes – our fastest year yet! 🎉 \n\nRound 2 tickets will go on sale soon. Stay tuned f…",
+    "truncated": false,
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [{
+            "screen_name": "AngularConnect",
+            "name": "AngularConnect",
+            "id": 3083829268,
+            "id_str": "3083829268",
+            "indices": [3, 18]
+        }],
+        "urls": []
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 202230373,
+        "id_str": "202230373",
+        "name": "Angular",
+        "screen_name": "angular",
+        "location": "",
+        "description": "One framework.\nMobile & desktop.",
+        "url": "https://t.co/ijlKFnW0VL",
+        "entities": {
+            "url": {
+                "urls": [{
+                    "url": "https://t.co/ijlKFnW0VL",
+                    "expanded_url": "https://angular.io",
+                    "display_url": "angular.io",
+                    "indices": [0, 23]
+                }]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 228292,
+        "friends_count": 121,
+        "listed_count": 3921,
+        "created_at": "Wed Oct 13 15:49:37 +0000 2010",
+        "favourites_count": 1841,
+        "utc_offset": -25200,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 2778,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://localhost:3000/userpic.jpg",
+        "profile_image_url_https": "http://localhost:3000/userpic.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/202230373/1462066193",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Wed May 31 09:19:08 +0000 2017",
+        "id": 869845690431811600,
+        "id_str": "869845690431811584",
+        "text": "🎉 Round 1 tickets sold out in 18 minutes – our fastest year yet! 🎉 \n\nRound 2 tickets will go on sale soon. Stay tuned for details…",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 3083829268,
+            "id_str": "3083829268",
+            "name": "AngularConnect",
+            "screen_name": "AngularConnect",
+            "location": "London",
+            "description": "Europe's largest Angular conference • ExCeL, London • 7 & 8 Nov 2017",
+            "url": "http://t.co/DvRxYxweHL",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "http://t.co/DvRxYxweHL",
+                        "expanded_url": "http://angularconnect.com",
+                        "display_url": "angularconnect.com",
+                        "indices": [0, 22]
+                    }]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 5708,
+            "friends_count": 215,
+            "listed_count": 161,
+            "created_at": "Tue Mar 10 11:35:54 +0000 2015",
+            "favourites_count": 819,
+            "utc_offset": 3600,
+            "time_zone": "Dublin",
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 1696,
+            "lang": "en-gb",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "FFFFFF",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/578927699806134272/Sw0AbyFL.png",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/578927699806134272/Sw0AbyFL.png",
+            "profile_background_tile": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/578876472875737088/mxduwMm2_normal.png",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/578876472875737088/mxduwMm2_normal.png",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/3083829268/1475224155",
+            "profile_link_color": "0994D9",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 12,
+        "favorite_count": 21,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 12,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+}, {
+    "created_at": "Fri May 26 20:57:51 +0000 2017",
+    "id": 868209588721434600,
+    "id_str": "868209588721434624",
+    "text": "RT @webmaxru: There is no logo for #PWA. What if we go for #jslogo concept to create one? Other ideas? Contribute! https://t.co/6YVu87Iif8…",
+    "truncated": false,
+    "entities": {
+        "hashtags": [{
+            "text": "PWA",
+            "indices": [35, 39]
+        }, {
+            "text": "jslogo",
+            "indices": [59, 66]
+        }],
+        "symbols": [],
+        "user_mentions": [{
+            "screen_name": "webmaxru",
+            "name": "Maxim Salnikov",
+            "id": 52327702,
+            "id_str": "52327702",
+            "indices": [3, 12]
+        }],
+        "urls": [{
+            "url": "https://t.co/6YVu87Iif8",
+            "expanded_url": "https://github.com/webmaxru/progressive-web-apps-logo",
+            "display_url": "github.com/webmaxru/progr…",
+            "indices": [115, 138]
+        }]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 202230373,
+        "id_str": "202230373",
+        "name": "Angular",
+        "screen_name": "angular",
+        "location": "",
+        "description": "One framework.\nMobile & desktop.",
+        "url": "https://t.co/ijlKFnW0VL",
+        "entities": {
+            "url": {
+                "urls": [{
+                    "url": "https://t.co/ijlKFnW0VL",
+                    "expanded_url": "https://angular.io",
+                    "display_url": "angular.io",
+                    "indices": [0, 23]
+                }]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 228292,
+        "friends_count": 121,
+        "listed_count": 3921,
+        "created_at": "Wed Oct 13 15:49:37 +0000 2010",
+        "favourites_count": 1841,
+        "utc_offset": -25200,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 2778,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://localhost:3000/userpic.jpg",
+        "profile_image_url_https": "http://localhost:3000/userpic.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/202230373/1462066193",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Wed May 24 13:18:16 +0000 2017",
+        "id": 867369157565853700,
+        "id_str": "867369157565853696",
+        "text": "There is no logo for #PWA. What if we go for #jslogo concept to create one? Other ideas? Contribute!… https://t.co/rgLAhFfln4",
+        "truncated": true,
+        "entities": {
+            "hashtags": [{
+                "text": "PWA",
+                "indices": [21, 25]
+            }, {
+                "text": "jslogo",
+                "indices": [45, 52]
+            }],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [{
+                "url": "https://t.co/rgLAhFfln4",
+                "expanded_url": "https://twitter.com/i/web/status/867369157565853696",
+                "display_url": "twitter.com/i/web/status/8…",
+                "indices": [102, 125]
+            }]
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 52327702,
+            "id_str": "52327702",
+            "name": "Maxim Salnikov",
+            "screen_name": "webmaxru",
+            "location": "Oslo, Norway",
+            "description": "Founder: @ngVikingsConf, @mobileeraconf. Organizer: @MobileOslo, @AngularOslo, @framsia, @mobile_pulse. Invite me to speak about @angular, #PWA, #IoT, #Identity",
+            "url": "https://t.co/mzs7VOKtVM",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "https://t.co/mzs7VOKtVM",
+                        "expanded_url": "https://developers.google.com/experts/people/maxim-salnikov",
+                        "display_url": "developers.google.com/experts/people…",
+                        "indices": [0, 23]
+                    }]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1401,
+            "friends_count": 912,
+            "listed_count": 75,
+            "created_at": "Tue Jun 30 06:44:47 +0000 2009",
+            "favourites_count": 1765,
+            "utc_offset": 7200,
+            "time_zone": "Stockholm",
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 521,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/850747384829059072/-m92nSY-_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/850747384829059072/-m92nSY-_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/52327702/1481659924",
+            "profile_link_color": "003E92",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": {
+            "id": "dee2255bd015b52c",
+            "url": "https://api.twitter.com/1.1/geo/id/dee2255bd015b52c.json",
+            "place_type": "city",
+            "name": "Stavanger",
+            "full_name": "Stavanger, Norway",
+            "country_code": "NO",
+            "country": "Norway",
+            "contained_within": [],
+            "bounding_box": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [5.5655417, 58.884421],
+                        [5.8687141, 58.884421],
+                        [5.8687141, 59.0608787],
+                        [5.5655417, 59.0608787]
+                    ]
+                ]
+            },
+            "attributes": {}
+        },
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 32,
+        "favorite_count": 73,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 32,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+}, {
+    "created_at": "Fri May 26 19:27:45 +0000 2017",
+    "id": 868186916532834300,
+    "id_str": "868186916532834304",
+    "text": "RT @nrwl_io: Learn how to upgrade your #AngularJS apps like a pro by lazy loading them in this post by @victorsavkin #angular https://t.co/…",
+    "truncated": false,
+    "entities": {
+        "hashtags": [{
+            "text": "AngularJS",
+            "indices": [39, 49]
+        }, {
+            "text": "angular",
+            "indices": [117, 125]
+        }],
+        "symbols": [],
+        "user_mentions": [{
+            "screen_name": "nrwl_io",
+            "name": "Nrwl.io",
+            "id": 805177910378123300,
+            "id_str": "805177910378123265",
+            "indices": [3, 11]
+        }, {
+            "screen_name": "victorsavkin",
+            "name": "Victor Savkin",
+            "id": 14742078,
+            "id_str": "14742078",
+            "indices": [103, 116]
+        }],
+        "urls": []
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 202230373,
+        "id_str": "202230373",
+        "name": "Angular",
+        "screen_name": "angular",
+        "location": "",
+        "description": "One framework.\nMobile & desktop.",
+        "url": "https://t.co/ijlKFnW0VL",
+        "entities": {
+            "url": {
+                "urls": [{
+                    "url": "https://t.co/ijlKFnW0VL",
+                    "expanded_url": "https://angular.io",
+                    "display_url": "angular.io",
+                    "indices": [0, 23]
+                }]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 228292,
+        "friends_count": 121,
+        "listed_count": 3921,
+        "created_at": "Wed Oct 13 15:49:37 +0000 2010",
+        "favourites_count": 1841,
+        "utc_offset": -25200,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 2778,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://localhost:3000/userpic.jpg",
+        "profile_image_url_https": "http://localhost:3000/userpic.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/202230373/1462066193",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Thu May 25 16:04:56 +0000 2017",
+        "id": 867773486357299200,
+        "id_str": "867773486357299200",
+        "text": "Learn how to upgrade your #AngularJS apps like a pro by lazy loading them in this post by @victorsavkin #angular https://t.co/F3lD7JEs8i",
+        "truncated": false,
+        "entities": {
+            "hashtags": [{
+                "text": "AngularJS",
+                "indices": [26, 36]
+            }, {
+                "text": "angular",
+                "indices": [104, 112]
+            }],
+            "symbols": [],
+            "user_mentions": [{
+                "screen_name": "victorsavkin",
+                "name": "Victor Savkin",
+                "id": 14742078,
+                "id_str": "14742078",
+                "indices": [90, 103]
+            }],
+            "urls": [{
+                "url": "https://t.co/F3lD7JEs8i",
+                "expanded_url": "https://blog.nrwl.io/using-ngupgrade-like-a-pro-lazy-loading-angularjs-applications-469819f5c86",
+                "display_url": "blog.nrwl.io/using-ngupgrad…",
+                "indices": [113, 136]
+            }]
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 805177910378123300,
+            "id_str": "805177910378123265",
+            "name": "Nrwl.io",
+            "screen_name": "nrwl_io",
+            "location": "",
+            "description": "Angular Consulting from core contributors and former Googlers Victor Savkin & Jeff Cross. We help teams upgrade from AngularJS to Angular. hello@nrwl.io",
+            "url": "https://t.co/Yc4V2huSkg",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "https://t.co/Yc4V2huSkg",
+                        "expanded_url": "https://nrwl.io",
+                        "display_url": "nrwl.io",
+                        "indices": [0, 23]
+                    }]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1303,
+            "friends_count": 46,
+            "listed_count": 39,
+            "created_at": "Sat Dec 03 22:32:28 +0000 2016",
+            "favourites_count": 117,
+            "utc_offset": -25200,
+            "time_zone": "Pacific Time (US & Canada)",
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 99,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/805179083889917952/zBj3oNaz_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/805179083889917952/zBj3oNaz_normal.jpg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 28,
+        "favorite_count": 44,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 28,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+}, {
+    "created_at": "Thu May 25 23:07:18 +0000 2017",
+    "id": 867879780934443000,
+    "id_str": "867879780934443009",
+    "text": "RT @thoughtram: ✨ Blogged ✨\n\nCustom themes with @Angular Material by @PascalPrecht \n\nhttps://t.co/WfU9rGjuYU https://t.co/s8s0DDLtDX",
+    "truncated": false,
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [{
+            "screen_name": "thoughtram",
+            "name": "thoughtram",
+            "id": 2370992766,
+            "id_str": "2370992766",
+            "indices": [3, 14]
+        }, {
+            "screen_name": "angular",
+            "name": "Angular",
+            "id": 202230373,
+            "id_str": "202230373",
+            "indices": [48, 56]
+        }, {
+            "screen_name": "PascalPrecht",
+            "name": "The Mighty Parrot 🐦",
+            "id": 146878311,
+            "id_str": "146878311",
+            "indices": [69, 82]
+        }],
+        "urls": [{
+            "url": "https://t.co/WfU9rGjuYU",
+            "expanded_url": "https://blog.thoughtram.io/angular/2017/05/23/custom-themes-with-angular-material.html",
+            "display_url": "blog.thoughtram.io/angular/2017/0…",
+            "indices": [85, 108]
+        }],
+        "media": [{
+            "id": 866955627096145900,
+            "id_str": "866955627096145921",
+            "indices": [109, 132],
+            "media_url": "http://pbs.twimg.com/media/DAgLjK0XgAEfisr.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/DAgLjK0XgAEfisr.jpg",
+            "url": "https://t.co/s8s0DDLtDX",
+            "display_url": "pic.twitter.com/s8s0DDLtDX",
+            "expanded_url": "https://twitter.com/thoughtram/status/866955631063965698/photo/1",
+            "type": "photo",
+            "sizes": {
+                "small": {
+                    "w": 680,
+                    "h": 469,
+                    "resize": "fit"
+                },
+                "thumb": {
+                    "w": 150,
+                    "h": 150,
+                    "resize": "crop"
+                },
+                "medium": {
+                    "w": 1200,
+                    "h": 828,
+                    "resize": "fit"
+                },
+                "large": {
+                    "w": 2048,
+                    "h": 1414,
+                    "resize": "fit"
+                }
+            },
+            "source_status_id": 866955631063965700,
+            "source_status_id_str": "866955631063965698",
+            "source_user_id": 2370992766,
+            "source_user_id_str": "2370992766"
+        }]
+    },
+    "extended_entities": {
+        "media": [{
+            "id": 866955627096145900,
+            "id_str": "866955627096145921",
+            "indices": [109, 132],
+            "media_url": "http://pbs.twimg.com/media/DAgLjK0XgAEfisr.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/DAgLjK0XgAEfisr.jpg",
+            "url": "https://t.co/s8s0DDLtDX",
+            "display_url": "pic.twitter.com/s8s0DDLtDX",
+            "expanded_url": "https://twitter.com/thoughtram/status/866955631063965698/photo/1",
+            "type": "photo",
+            "sizes": {
+                "small": {
+                    "w": 680,
+                    "h": 469,
+                    "resize": "fit"
+                },
+                "thumb": {
+                    "w": 150,
+                    "h": 150,
+                    "resize": "crop"
+                },
+                "medium": {
+                    "w": 1200,
+                    "h": 828,
+                    "resize": "fit"
+                },
+                "large": {
+                    "w": 2048,
+                    "h": 1414,
+                    "resize": "fit"
+                }
+            },
+            "source_status_id": 866955631063965700,
+            "source_status_id_str": "866955631063965698",
+            "source_user_id": 2370992766,
+            "source_user_id_str": "2370992766"
+        }]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 202230373,
+        "id_str": "202230373",
+        "name": "Angular",
+        "screen_name": "angular",
+        "location": "",
+        "description": "One framework.\nMobile & desktop.",
+        "url": "https://t.co/ijlKFnW0VL",
+        "entities": {
+            "url": {
+                "urls": [{
+                    "url": "https://t.co/ijlKFnW0VL",
+                    "expanded_url": "https://angular.io",
+                    "display_url": "angular.io",
+                    "indices": [0, 23]
+                }]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 228292,
+        "friends_count": 121,
+        "listed_count": 3921,
+        "created_at": "Wed Oct 13 15:49:37 +0000 2010",
+        "favourites_count": 1841,
+        "utc_offset": -25200,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 2778,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://localhost:3000/userpic.jpg",
+        "profile_image_url_https": "http://localhost:3000/userpic.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/202230373/1462066193",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Tue May 23 09:55:04 +0000 2017",
+        "id": 866955631063965700,
+        "id_str": "866955631063965698",
+        "text": "✨ Blogged ✨\n\nCustom themes with @Angular Material by @PascalPrecht \n\nhttps://t.co/WfU9rGjuYU https://t.co/s8s0DDLtDX",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [{
+                "screen_name": "angular",
+                "name": "Angular",
+                "id": 202230373,
+                "id_str": "202230373",
+                "indices": [32, 40]
+            }, {
+                "screen_name": "PascalPrecht",
+                "name": "The Mighty Parrot 🐦",
+                "id": 146878311,
+                "id_str": "146878311",
+                "indices": [53, 66]
+            }],
+            "urls": [{
+                "url": "https://t.co/WfU9rGjuYU",
+                "expanded_url": "https://blog.thoughtram.io/angular/2017/05/23/custom-themes-with-angular-material.html",
+                "display_url": "blog.thoughtram.io/angular/2017/0…",
+                "indices": [69, 92]
+            }],
+            "media": [{
+                "id": 866955627096145900,
+                "id_str": "866955627096145921",
+                "indices": [93, 116],
+                "media_url": "http://pbs.twimg.com/media/DAgLjK0XgAEfisr.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/DAgLjK0XgAEfisr.jpg",
+                "url": "https://t.co/s8s0DDLtDX",
+                "display_url": "pic.twitter.com/s8s0DDLtDX",
+                "expanded_url": "https://twitter.com/thoughtram/status/866955631063965698/photo/1",
+                "type": "photo",
+                "sizes": {
+                    "small": {
+                        "w": 680,
+                        "h": 469,
+                        "resize": "fit"
+                    },
+                    "thumb": {
+                        "w": 150,
+                        "h": 150,
+                        "resize": "crop"
+                    },
+                    "medium": {
+                        "w": 1200,
+                        "h": 828,
+                        "resize": "fit"
+                    },
+                    "large": {
+                        "w": 2048,
+                        "h": 1414,
+                        "resize": "fit"
+                    }
+                }
+            }]
+        },
+        "extended_entities": {
+            "media": [{
+                "id": 866955627096145900,
+                "id_str": "866955627096145921",
+                "indices": [93, 116],
+                "media_url": "http://pbs.twimg.com/media/DAgLjK0XgAEfisr.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/DAgLjK0XgAEfisr.jpg",
+                "url": "https://t.co/s8s0DDLtDX",
+                "display_url": "pic.twitter.com/s8s0DDLtDX",
+                "expanded_url": "https://twitter.com/thoughtram/status/866955631063965698/photo/1",
+                "type": "photo",
+                "sizes": {
+                    "small": {
+                        "w": 680,
+                        "h": 469,
+                        "resize": "fit"
+                    },
+                    "thumb": {
+                        "w": 150,
+                        "h": 150,
+                        "resize": "crop"
+                    },
+                    "medium": {
+                        "w": 1200,
+                        "h": 828,
+                        "resize": "fit"
+                    },
+                    "large": {
+                        "w": 2048,
+                        "h": 1414,
+                        "resize": "fit"
+                    }
+                }
+            }]
+        },
+        "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 2370992766,
+            "id_str": "2370992766",
+            "name": "thoughtram",
+            "screen_name": "thoughtram",
+            "location": "In your city",
+            "description": "@Angular training with passion.",
+            "url": "https://t.co/fadbJsXZaq",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "https://t.co/fadbJsXZaq",
+                        "expanded_url": "http://thoughtram.io",
+                        "display_url": "thoughtram.io",
+                        "indices": [0, 23]
+                    }]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 4283,
+            "friends_count": 55,
+            "listed_count": 136,
+            "created_at": "Mon Mar 03 22:02:38 +0000 2014",
+            "favourites_count": 386,
+            "utc_offset": 7200,
+            "time_zone": "Berlin",
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 1833,
+            "lang": "de",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/770983501780946944/Okbes6R9_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/770983501780946944/Okbes6R9_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/2370992766/1487429104",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 61,
+        "favorite_count": 110,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 61,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+}, {
+    "created_at": "Thu May 25 23:07:00 +0000 2017",
+    "id": 867879701859016700,
+    "id_str": "867879701859016704",
+    "text": "RT @Brocco: New versions of the @angular/cli have been published to npm... v1.0.5 is the latest and v1.1.0-rc.1 is also up! 🎉",
+    "truncated": false,
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [{
+            "screen_name": "Brocco",
+            "name": "Mike Brocchi",
+            "id": 2779381,
+            "id_str": "2779381",
+            "indices": [3, 10]
+        }],
+        "urls": []
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 202230373,
+        "id_str": "202230373",
+        "name": "Angular",
+        "screen_name": "angular",
+        "location": "",
+        "description": "One framework.\nMobile & desktop.",
+        "url": "https://t.co/ijlKFnW0VL",
+        "entities": {
+            "url": {
+                "urls": [{
+                    "url": "https://t.co/ijlKFnW0VL",
+                    "expanded_url": "https://angular.io",
+                    "display_url": "angular.io",
+                    "indices": [0, 23]
+                }]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 228292,
+        "friends_count": 121,
+        "listed_count": 3921,
+        "created_at": "Wed Oct 13 15:49:37 +0000 2010",
+        "favourites_count": 1841,
+        "utc_offset": -25200,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 2778,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://localhost:3000/userpic.jpg",
+        "profile_image_url_https": "http://localhost:3000/userpic.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/202230373/1462066193",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Wed May 24 22:45:06 +0000 2017",
+        "id": 867511805609996300,
+        "id_str": "867511805609996288",
+        "text": "New versions of the @angular/cli have been published to npm... v1.0.5 is the latest and v1.1.0-rc.1 is also up! 🎉",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 2779381,
+            "id_str": "2779381",
+            "name": "Mike Brocchi",
+            "screen_name": "Brocco",
+            "location": "Pittsburgh, PA",
+            "description": "Web developer, Google Developer Expert (GDE), Angular CLI contributor. I write things that help others... at least that's my goal.",
+            "url": "https://t.co/MKkhH3agoq",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "https://t.co/MKkhH3agoq",
+                        "expanded_url": "https://github.com/brocco",
+                        "display_url": "github.com/brocco",
+                        "indices": [0, 23]
+                    }]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 3026,
+            "friends_count": 389,
+            "listed_count": 165,
+            "created_at": "Thu Mar 29 03:38:44 +0000 2007",
+            "favourites_count": 6210,
+            "utc_offset": -14400,
+            "time_zone": "Eastern Time (US & Canada)",
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 5963,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "131516",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+            "profile_background_tile": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/862142599548850176/e-moaKuq_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/862142599548850176/e-moaKuq_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/2779381/1493135068",
+            "profile_link_color": "FF691F",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 75,
+        "favorite_count": 131,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 75,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+}, {
+    "created_at": "Thu May 25 23:06:53 +0000 2017",
+    "id": 867879675992854500,
+    "id_str": "867879675992854528",
+    "text": "RT @John_Papa: New snippets for #RxJS and #Angular for VS @code https://t.co/tbmpJJWHmw\n\nChangeLog ... https://t.co/BGG1d2wMYd https://t.co…",
+    "truncated": false,
+    "entities": {
+        "hashtags": [{
+            "text": "RxJS",
+            "indices": [32, 37]
+        }, {
+            "text": "Angular",
+            "indices": [42, 50]
+        }],
+        "symbols": [],
+        "user_mentions": [{
+            "screen_name": "John_Papa",
+            "name": "John Papa",
+            "id": 14660297,
+            "id_str": "14660297",
+            "indices": [3, 13]
+        }, {
+            "screen_name": "code",
+            "name": "Visual Studio Code",
+            "id": 3167734591,
+            "id_str": "3167734591",
+            "indices": [58, 63]
+        }],
+        "urls": [{
+            "url": "https://t.co/tbmpJJWHmw",
+            "expanded_url": "https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2",
+            "display_url": "marketplace.visualstudio.com/items?itemName…",
+            "indices": [64, 87]
+        }, {
+            "url": "https://t.co/BGG1d2wMYd",
+            "expanded_url": "https://github.com/johnpapa/vscode-angular-snippets/blob/master/CHANGELOG.md#230-2017-05-21",
+            "display_url": "github.com/johnpapa/vscod…",
+            "indices": [103, 126]
+        }]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 202230373,
+        "id_str": "202230373",
+        "name": "Angular",
+        "screen_name": "angular",
+        "location": "",
+        "description": "One framework.\nMobile & desktop.",
+        "url": "https://t.co/ijlKFnW0VL",
+        "entities": {
+            "url": {
+                "urls": [{
+                    "url": "https://t.co/ijlKFnW0VL",
+                    "expanded_url": "https://angular.io",
+                    "display_url": "angular.io",
+                    "indices": [0, 23]
+                }]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 228292,
+        "friends_count": 121,
+        "listed_count": 3921,
+        "created_at": "Wed Oct 13 15:49:37 +0000 2010",
+        "favourites_count": 1841,
+        "utc_offset": -25200,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 2778,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://localhost:3000/userpic.jpg",
+        "profile_image_url_https": "http://localhost:3000/userpic.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/202230373/1462066193",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Mon May 22 03:29:16 +0000 2017",
+        "id": 866496155315777500,
+        "id_str": "866496155315777538",
+        "text": "New snippets for #RxJS and #Angular for VS @code https://t.co/tbmpJJWHmw\n\nChangeLog ... https://t.co/BGG1d2wMYd https://t.co/o3qvpnFWdX",
+        "truncated": false,
+        "entities": {
+            "hashtags": [{
+                "text": "RxJS",
+                "indices": [17, 22]
+            }, {
+                "text": "Angular",
+                "indices": [27, 35]
+            }],
+            "symbols": [],
+            "user_mentions": [{
+                "screen_name": "code",
+                "name": "Visual Studio Code",
+                "id": 3167734591,
+                "id_str": "3167734591",
+                "indices": [43, 48]
+            }],
+            "urls": [{
+                "url": "https://t.co/tbmpJJWHmw",
+                "expanded_url": "https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2",
+                "display_url": "marketplace.visualstudio.com/items?itemName…",
+                "indices": [49, 72]
+            }, {
+                "url": "https://t.co/BGG1d2wMYd",
+                "expanded_url": "https://github.com/johnpapa/vscode-angular-snippets/blob/master/CHANGELOG.md#230-2017-05-21",
+                "display_url": "github.com/johnpapa/vscod…",
+                "indices": [88, 111]
+            }],
+            "media": [{
+                "id": 866495719330500600,
+                "id_str": "866495719330500611",
+                "indices": [112, 135],
+                "media_url": "http://pbs.twimg.com/media/DAZpRA4XUAMCQPv.png",
+                "media_url_https": "https://pbs.twimg.com/media/DAZpRA4XUAMCQPv.png",
+                "url": "https://t.co/o3qvpnFWdX",
+                "display_url": "pic.twitter.com/o3qvpnFWdX",
+                "expanded_url": "https://twitter.com/John_Papa/status/866496155315777538/photo/1",
+                "type": "photo",
+                "sizes": {
+                    "thumb": {
+                        "w": 150,
+                        "h": 150,
+                        "resize": "crop"
+                    },
+                    "small": {
+                        "w": 207,
+                        "h": 207,
+                        "resize": "fit"
+                    },
+                    "large": {
+                        "w": 207,
+                        "h": 207,
+                        "resize": "fit"
+                    },
+                    "medium": {
+                        "w": 207,
+                        "h": 207,
+                        "resize": "fit"
+                    }
+                }
+            }]
+        },
+        "extended_entities": {
+            "media": [{
+                "id": 866495719330500600,
+                "id_str": "866495719330500611",
+                "indices": [112, 135],
+                "media_url": "http://pbs.twimg.com/media/DAZpRA4XUAMCQPv.png",
+                "media_url_https": "https://pbs.twimg.com/media/DAZpRA4XUAMCQPv.png",
+                "url": "https://t.co/o3qvpnFWdX",
+                "display_url": "pic.twitter.com/o3qvpnFWdX",
+                "expanded_url": "https://twitter.com/John_Papa/status/866496155315777538/photo/1",
+                "type": "photo",
+                "sizes": {
+                    "thumb": {
+                        "w": 150,
+                        "h": 150,
+                        "resize": "crop"
+                    },
+                    "small": {
+                        "w": 207,
+                        "h": 207,
+                        "resize": "fit"
+                    },
+                    "large": {
+                        "w": 207,
+                        "h": 207,
+                        "resize": "fit"
+                    },
+                    "medium": {
+                        "w": 207,
+                        "h": 207,
+                        "resize": "fit"
+                    }
+                }
+            }]
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 14660297,
+            "id_str": "14660297",
+            "name": "John Papa",
+            "screen_name": "John_Papa",
+            "location": "Orlando, FL",
+            "description": "Husband, father, & Catholic enjoying life with my family. Disney fanatic, developer advocate @ Microsoft, HTML/CSS/JavaScript dev, speaker, & Pluralsight author",
+            "url": "https://t.co/5WYl881ol0",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "https://t.co/5WYl881ol0",
+                        "expanded_url": "http://johnpapa.net",
+                        "display_url": "johnpapa.net",
+                        "indices": [0, 23]
+                    }]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 57036,
+            "friends_count": 909,
+            "listed_count": 1873,
+            "created_at": "Mon May 05 15:00:00 +0000 2008",
+            "favourites_count": 1100,
+            "utc_offset": -14400,
+            "time_zone": "Eastern Time (US & Canada)",
+            "geo_enabled": false,
+            "verified": true,
+            "statuses_count": 34352,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "3B94D9",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/663358447/xc7ad01947879a7effa4894a19769057.png",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/663358447/xc7ad01947879a7effa4894a19769057.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/2513304786/ududkrhfpysseeidseo9_normal.png",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/2513304786/ududkrhfpysseeidseo9_normal.png",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/14660297/1354078568",
+            "profile_link_color": "1B95E0",
+            "profile_sidebar_border_color": "E76240",
+            "profile_sidebar_fill_color": "F57C38",
+            "profile_text_color": "F6DD03",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 107,
+        "favorite_count": 168,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 107,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+}, {
+    "created_at": "Thu May 25 21:30:12 +0000 2017",
+    "id": 867855343753326600,
+    "id_str": "867855343753326592",
+    "text": "RT @ngAtlConf: Early Bird Tickets now available! Save $250 by getting your tickets now. https://t.co/94DEiu9dCh @angular #Diversity #develo…",
+    "truncated": false,
+    "entities": {
+        "hashtags": [{
+            "text": "Diversity",
+            "indices": [121, 131]
+        }],
+        "symbols": [],
+        "user_mentions": [{
+            "screen_name": "ngAtlConf",
+            "name": "ngAtlanta",
+            "id": 852226073534373900,
+            "id_str": "852226073534373888",
+            "indices": [3, 13]
+        }, {
+            "screen_name": "angular",
+            "name": "Angular",
+            "id": 202230373,
+            "id_str": "202230373",
+            "indices": [112, 120]
+        }],
+        "urls": [{
+            "url": "https://t.co/94DEiu9dCh",
+            "expanded_url": "https://ti.to/ngatlconf/ngatl-2018",
+            "display_url": "ti.to/ngatlconf/ngat…",
+            "indices": [88, 111]
+        }]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 202230373,
+        "id_str": "202230373",
+        "name": "Angular",
+        "screen_name": "angular",
+        "location": "",
+        "description": "One framework.\nMobile & desktop.",
+        "url": "https://t.co/ijlKFnW0VL",
+        "entities": {
+            "url": {
+                "urls": [{
+                    "url": "https://t.co/ijlKFnW0VL",
+                    "expanded_url": "https://angular.io",
+                    "display_url": "angular.io",
+                    "indices": [0, 23]
+                }]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 228292,
+        "friends_count": 121,
+        "listed_count": 3921,
+        "created_at": "Wed Oct 13 15:49:37 +0000 2010",
+        "favourites_count": 1841,
+        "utc_offset": -25200,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 2778,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://localhost:3000/userpic.jpg",
+        "profile_image_url_https": "http://localhost:3000/userpic.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/202230373/1462066193",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Wed May 24 14:59:46 +0000 2017",
+        "id": 867394699753128000,
+        "id_str": "867394699753127937",
+        "text": "Early Bird Tickets now available! Save $250 by getting your tickets now. https://t.co/94DEiu9dCh @angular… https://t.co/td4W0zeo78",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [{
+                "screen_name": "angular",
+                "name": "Angular",
+                "id": 202230373,
+                "id_str": "202230373",
+                "indices": [97, 105]
+            }],
+            "urls": [{
+                "url": "https://t.co/94DEiu9dCh",
+                "expanded_url": "https://ti.to/ngatlconf/ngatl-2018",
+                "display_url": "ti.to/ngatlconf/ngat…",
+                "indices": [73, 96]
+            }, {
+                "url": "https://t.co/td4W0zeo78",
+                "expanded_url": "https://twitter.com/i/web/status/867394699753127937",
+                "display_url": "twitter.com/i/web/status/8…",
+                "indices": [107, 130]
+            }]
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 852226073534373900,
+            "id_str": "852226073534373888",
+            "name": "ngAtlanta",
+            "screen_name": "ngAtlConf",
+            "location": "Atlanta, GA",
+            "description": "#Diversity #Inclusion #Angular #YouCanSitWithUs",
+            "url": "https://t.co/s1TGf4AUDV",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "https://t.co/s1TGf4AUDV",
+                        "expanded_url": "http://ng-atl.org",
+                        "display_url": "ng-atl.org",
+                        "indices": [0, 23]
+                    }]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 191,
+            "friends_count": 71,
+            "listed_count": 5,
+            "created_at": "Wed Apr 12 18:25:04 +0000 2017",
+            "favourites_count": 104,
+            "utc_offset": -14400,
+            "time_zone": "Eastern Time (US & Canada)",
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 116,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/857653372270387202/8tFC4sEt_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/857653372270387202/8tFC4sEt_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/852226073534373888/1493315967",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 22,
+        "favorite_count": 30,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 22,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+}, {
+    "created_at": "Thu May 25 21:30:04 +0000 2017",
+    "id": 867855311566024700,
+    "id_str": "867855311566024705",
+    "text": "RT @PascalPrecht: And here it finally is! 🎉\n\nAn in-depth guide about theming your @Angular apps using Angular Material\n\nHopefully this is u…",
+    "truncated": false,
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [{
+            "screen_name": "PascalPrecht",
+            "name": "The Mighty Parrot 🐦",
+            "id": 146878311,
+            "id_str": "146878311",
+            "indices": [3, 16]
+        }, {
+            "screen_name": "angular",
+            "name": "Angular",
+            "id": 202230373,
+            "id_str": "202230373",
+            "indices": [82, 90]
+        }],
+        "urls": []
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 202230373,
+        "id_str": "202230373",
+        "name": "Angular",
+        "screen_name": "angular",
+        "location": "",
+        "description": "One framework.\nMobile & desktop.",
+        "url": "https://t.co/ijlKFnW0VL",
+        "entities": {
+            "url": {
+                "urls": [{
+                    "url": "https://t.co/ijlKFnW0VL",
+                    "expanded_url": "https://angular.io",
+                    "display_url": "angular.io",
+                    "indices": [0, 23]
+                }]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 228292,
+        "friends_count": 121,
+        "listed_count": 3921,
+        "created_at": "Wed Oct 13 15:49:37 +0000 2010",
+        "favourites_count": 1841,
+        "utc_offset": -25200,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 2778,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://localhost:3000/userpic.jpg",
+        "profile_image_url_https": "http://localhost:3000/userpic.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/202230373/1462066193",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Tue May 23 10:01:31 +0000 2017",
+        "id": 866957255417241600,
+        "id_str": "866957255417241602",
+        "text": "And here it finally is! 🎉\n\nAn in-depth guide about theming your @Angular apps using Angular Material\n\nHopefully thi… https://t.co/FZ2jVIo0xW",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [{
+                "screen_name": "angular",
+                "name": "Angular",
+                "id": 202230373,
+                "id_str": "202230373",
+                "indices": [64, 72]
+            }],
+            "urls": [{
+                "url": "https://t.co/FZ2jVIo0xW",
+                "expanded_url": "https://twitter.com/i/web/status/866957255417241602",
+                "display_url": "twitter.com/i/web/status/8…",
+                "indices": [117, 140]
+            }]
+        },
+        "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 146878311,
+            "id_str": "146878311",
+            "name": "The Mighty Parrot 🐦",
+            "screen_name": "PascalPrecht",
+            "location": "Hanover, Germany",
+            "description": "I like synthesizers, art, and coding. Co-founder of @thoughtram, @machinelabs_ai and creator of @5thingsAngular.\n\nAlso GDE for the @Angular team @Google.",
+            "url": "https://t.co/fadbJsXZaq",
+            "entities": {
+                "url": {
+                    "urls": [{
+                        "url": "https://t.co/fadbJsXZaq",
+                        "expanded_url": "http://thoughtram.io",
+                        "display_url": "thoughtram.io",
+                        "indices": [0, 23]
+                    }]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 9779,
+            "friends_count": 319,
+            "listed_count": 472,
+            "created_at": "Sat May 22 15:41:38 +0000 2010",
+            "favourites_count": 7515,
+            "utc_offset": -7200,
+            "time_zone": "Greenland",
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 26151,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": true,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/850513445954830336/uPwfCxB5_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/850513445954830336/uPwfCxB5_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/146878311/1491613139",
+            "profile_link_color": "ABB8C2",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": true,
+        "quoted_status_id": 866955631063965700,
+        "quoted_status_id_str": "866955631063965698",
+        "quoted_status": {
+            "created_at": "Tue May 23 09:55:04 +0000 2017",
+            "id": 866955631063965700,
+            "id_str": "866955631063965698",
+            "text": "✨ Blogged ✨\n\nCustom themes with @Angular Material by @PascalPrecht \n\nhttps://t.co/WfU9rGjuYU https://t.co/s8s0DDLtDX",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [{
+                    "screen_name": "angular",
+                    "name": "Angular",
+                    "id": 202230373,
+                    "id_str": "202230373",
+                    "indices": [32, 40]
+                }, {
+                    "screen_name": "PascalPrecht",
+                    "name": "The Mighty Parrot 🐦",
+                    "id": 146878311,
+                    "id_str": "146878311",
+                    "indices": [53, 66]
+                }],
+                "urls": [{
+                    "url": "https://t.co/WfU9rGjuYU",
+                    "expanded_url": "https://blog.thoughtram.io/angular/2017/05/23/custom-themes-with-angular-material.html",
+                    "display_url": "blog.thoughtram.io/angular/2017/0…",
+                    "indices": [69, 92]
+                }],
+                "media": [{
+                    "id": 866955627096145900,
+                    "id_str": "866955627096145921",
+                    "indices": [93, 116],
+                    "media_url": "http://pbs.twimg.com/media/DAgLjK0XgAEfisr.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/DAgLjK0XgAEfisr.jpg",
+                    "url": "https://t.co/s8s0DDLtDX",
+                    "display_url": "pic.twitter.com/s8s0DDLtDX",
+                    "expanded_url": "https://twitter.com/thoughtram/status/866955631063965698/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "small": {
+                            "w": 680,
+                            "h": 469,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 1200,
+                            "h": 828,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 2048,
+                            "h": 1414,
+                            "resize": "fit"
+                        }
+                    }
+                }]
+            },
+            "extended_entities": {
+                "media": [{
+                    "id": 866955627096145900,
+                    "id_str": "866955627096145921",
+                    "indices": [93, 116],
+                    "media_url": "http://pbs.twimg.com/media/DAgLjK0XgAEfisr.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/DAgLjK0XgAEfisr.jpg",
+                    "url": "https://t.co/s8s0DDLtDX",
+                    "display_url": "pic.twitter.com/s8s0DDLtDX",
+                    "expanded_url": "https://twitter.com/thoughtram/status/866955631063965698/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "small": {
+                            "w": 680,
+                            "h": 469,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 1200,
+                            "h": 828,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 2048,
+                            "h": 1414,
+                            "resize": "fit"
+                        }
+                    }
+                }]
+            },
+            "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 2370992766,
+                "id_str": "2370992766",
+                "name": "thoughtram",
+                "screen_name": "thoughtram",
+                "location": "In your city",
+                "description": "@Angular training with passion.",
+                "url": "https://t.co/fadbJsXZaq",
+                "entities": {
+                    "url": {
+                        "urls": [{
+                            "url": "https://t.co/fadbJsXZaq",
+                            "expanded_url": "http://thoughtram.io",
+                            "display_url": "thoughtram.io",
+                            "indices": [0, 23]
+                        }]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 4283,
+                "friends_count": 55,
+                "listed_count": 136,
+                "created_at": "Mon Mar 03 22:02:38 +0000 2014",
+                "favourites_count": 386,
+                "utc_offset": 7200,
+                "time_zone": "Berlin",
+                "geo_enabled": true,
+                "verified": false,
+                "statuses_count": 1833,
+                "lang": "de",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/770983501780946944/Okbes6R9_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/770983501780946944/Okbes6R9_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/2370992766/1487429104",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": true,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 61,
+            "favorite_count": 110,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        "retweet_count": 45,
+        "favorite_count": 101,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    "is_quote_status": true,
+    "quoted_status_id": 866955631063965700,
+    "quoted_status_id_str": "866955631063965698",
+    "retweet_count": 45,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+}, {
+    "created_at": "Wed May 24 21:53:47 +0000 2017",
+    "id": 867498888449503200,
+    "id_str": "867498888449503232",
+    "text": "RT @jules_kremer: Want new tech skills? Together @WomenTechmakers &amp; @udacity launch a new scholarship for #womenintech https://t.co/oz4oUf8…",
+    "truncated": false,
+    "entities": {
+        "hashtags": [{
+            "text": "womenintech",
+            "indices": [110, 122]
+        }],
+        "symbols": [],
+        "user_mentions": [{
+            "screen_name": "jules_kremer",
+            "name": "Jules Kremer",
+            "id": 9167652,
+            "id_str": "9167652",
+            "indices": [3, 16]
+        }, {
+            "screen_name": "WomenTechmakers",
+            "name": "Women Techmakers",
+            "id": 2362618909,
+            "id_str": "2362618909",
+            "indices": [49, 65]
+        }, {
+            "screen_name": "udacity",
+            "name": "Udacity",
+            "id": 326912209,
+            "id_str": "326912209",
+            "indices": [72, 80]
+        }],
+        "urls": []
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 202230373,
+        "id_str": "202230373",
+        "name": "Angular",
+        "screen_name": "angular",
+        "location": "",
+        "description": "One framework.\nMobile & desktop.",
+        "url": "https://t.co/ijlKFnW0VL",
+        "entities": {
+            "url": {
+                "urls": [{
+                    "url": "https://t.co/ijlKFnW0VL",
+                    "expanded_url": "https://angular.io",
+                    "display_url": "angular.io",
+                    "indices": [0, 23]
+                }]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 228292,
+        "friends_count": 121,
+        "listed_count": 3921,
+        "created_at": "Wed Oct 13 15:49:37 +0000 2010",
+        "favourites_count": 1841,
+        "utc_offset": -25200,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 2778,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://localhost:3000/userpic.jpg",
+        "profile_image_url_https": "http://localhost:3000/userpic.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/202230373/1462066193",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Wed May 24 19:24:39 +0000 2017",
+        "id": 867461361495822300,
+        "id_str": "867461361495822336",
+        "text": "Want new tech skills? Together @WomenTechmakers &amp; @udacity launch a new scholarship for #womenintech https://t.co/oz4oUf8iej Apply by June 9",
+        "truncated": false,
+        "entities": {
+            "hashtags": [{
+                "text": "womenintech",
+                "indices": [92, 104]
+            }],
+            "symbols": [],
+            "user_mentions": [{
+                "screen_name": "WomenTechmakers",
+                "name": "Women Techmakers",
+                "id": 2362618909,
+                "id_str": "2362618909",
+                "indices": [31, 47]
+            }, {
+                "screen_name": "udacity",
+                "name": "Udacity",
+                "id": 326912209,
+                "id_str": "326912209",
+                "indices": [54, 62]
+            }],
+            "urls": [{
+                "url": "https://t.co/oz4oUf8iej",
+                "expanded_url": "https://www.womentechmakers.com/udacity",
+                "display_url": "womentechmakers.com/udacity",
+                "indices": [105, 128]
+            }]
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 9167652,
+            "id_str": "9167652",
+            "name": "Jules Kremer",
+            "screen_name": "jules_kremer",
+            "location": "San Diego, California",
+            "description": "Googler, Ashtangi, Beer Lover and Angular.",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 3581,
+            "friends_count": 1422,
+            "listed_count": 170,
+            "created_at": "Sun Sep 30 04:06:21 +0000 2007",
+            "favourites_count": 606,
+            "utc_offset": -25200,
+            "time_zone": "Pacific Time (US & Canada)",
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 1818,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "9AE4E8",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme16/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme16/bg.gif",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/798222997181956097/ho7Go90l_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/798222997181956097/ho7Go90l_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/9167652/1492911046",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "BDDCAD",
+            "profile_sidebar_fill_color": "DDFFCC",
+            "profile_text_color": "333333",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 43,
+        "favorite_count": 64,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 43,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+}]

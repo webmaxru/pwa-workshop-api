@@ -43,6 +43,8 @@ var argv = require('yargs')
 
 var stringToMonitor = argv.stringToMonitor || 'javascript'
 
+var offlineTimeline = require('./offline-data/timeline.json')
+
 // Setting Web Push credentials
 var webPush = require('web-push')
 webPush.setVapidDetails(
@@ -157,6 +159,26 @@ function sendNotification (pushSubscription, payload) {
 }
 
 // Go to https://dev.twitter.com/rest/tools/console to get endpoints list
+
+// Exposing the timeline endpoint
+app.get('/search/:query', function (req, res, next) {
+  twitterClient.get('search/tweets', {
+    q: req.params.query,
+    count: 5
+  })
+    .then(function (tweets) {
+      res.send(tweets)
+    })
+    .catch(function (error) {
+      logger.error(error)
+      throw new Error('Error receiving tweets')
+    })
+})
+
+// Exposing the timeline endpoint
+app.get('/timeline/offline', function (req, res, next) {
+  res.send(offlineTimeline)
+})
 
 // Exposing the timeline endpoint
 app.get('/timeline/:screenName?', function (req, res, next) {
