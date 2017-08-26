@@ -126,7 +126,12 @@ twitterClient.stream('statuses/filter', {
         requireInteraction: true,
         tag: tweet.id,
         vibrate: [300, 100, 400],
-        data: 'https://twitter.com/statuses/' + tweet.id_str
+        data: {
+          url: 'https://twitter.com/statuses/' + tweet.id_str,
+          created_at: tweet.created_at,
+          favorite_count: tweet.favorite_count,
+          retweet_count: tweet.retweet_count
+        }
       }
 
       if (tweet.entities && tweet.entities.media) {
