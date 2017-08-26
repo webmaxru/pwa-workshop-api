@@ -240,6 +240,10 @@ app.post('/real-post-tweet', function (req, res, next) {
   }
 })
 
+app.get('/assets/redirect/redirectfrom.html', (req, res) => {
+  res.redirect(301, '/assets/redirect/redirectto.html');
+});
+
 // Default endpoint
 app.get('/', function (req, res, next) {
   res.send('PWA Workshop API works! Source: <a href="https://github.com/webmaxru/pwa-workshop-api">https://github.com/webmaxru/pwa-workshop-api</a>')
