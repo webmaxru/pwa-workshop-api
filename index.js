@@ -7,13 +7,20 @@ var app = express()
 var server = require('http').createServer(app)
 
 var bodyParser = require('body-parser')
-app.use(express.static(__dirname))
 app.use(bodyParser.json())
 
 // Enabling CORS
 var cors = require('cors')
 app.use(cors())
 app.options('*', cors())
+
+app.get('/assets/redirect/redirectfrom.html', (req, res) => {
+  console.log('redirectfrom')
+  res.redirect(301, '/assets/redirect/redirectto.html')
+})
+
+// Static assets
+app.use(express.static(__dirname))
 
 // Setting up detailed logging
 var winston = require('winston')
@@ -245,9 +252,7 @@ app.post('/real-post-tweet', function (req, res, next) {
   }
 })
 
-app.get('/assets/redirect/redirectfrom.html', (req, res) => {
-  res.redirect(301, '/assets/redirect/redirectto.html');
-});
+
 
 // Default endpoint
 app.get('/', function (req, res, next) {
