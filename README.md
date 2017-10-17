@@ -23,7 +23,7 @@ npm install
 3. Use Consumer Key, Consumer Secret, Access Token, Access Token Secret to fill in the corresponding fields in `.env`
 
 ## Getting VAPID credentials
-Go to [https://web-push-codelab.appspot.com/](https://web-push-codelab.appspot.com/) and use the newly generated Public and Private VAPID keys to fill in the corresponding fields in `.env`
+Go to [https://web-push-codelab.glitch.me/](https://web-push-codelab.glitch.me/) and use the newly generated Public and Private VAPID keys to fill in the corresponding fields in `.env`
 
 ## Starting the app
 1. In the terminal
